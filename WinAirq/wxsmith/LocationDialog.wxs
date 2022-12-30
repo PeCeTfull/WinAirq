@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxDialog" name="LocationDialog">
+		<title>Search for location...</title>
+		<centered>1</centered>
+		<pos_arg>1</pos_arg>
+		<size_arg>1</size_arg>
+		<object class="wxFlexGridSizer" variable="FgsMain" member="no">
+			<cols>1</cols>
+			<rows>3</rows>
+			<object class="sizeritem">
+				<object class="wxFlexGridSizer" variable="FgsSearch" member="no">
+					<cols>2</cols>
+					<rows>1</rows>
+					<growablecols>0</growablecols>
+					<growablerows>0</growablerows>
+					<object class="sizeritem">
+						<object class="wxTextCtrl" name="ID_TXTLOCATION" variable="TxtLocation" member="yes">
+							<style>wxTE_PROCESS_ENTER</style>
+						</object>
+						<flag>wxRIGHT|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxButton" name="ID_BTNSEARCH" variable="BtnSearch" member="yes">
+							<label>Search</label>
+							<handler function="OnBtnSearchClick" entry="EVT_BUTTON" />
+						</object>
+						<flag>wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+				</object>
+				<flag>wxTOP|wxLEFT|wxRIGHT|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+			<object class="sizeritem">
+				<object class="wxCheckBox" name="ID_CHKTRANSLATETOWNNAMES" variable="ChkTranslateTownNames" member="yes">
+					<label>Translate town names</label>
+					<checked>1</checked>
+				</object>
+				<flag>wxTOP|wxLEFT|wxRIGHT|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+			<object class="sizeritem">
+				<object class="wxListCtrl" name="ID_LTCLOCATIONS" variable="LtcLocations" member="yes">
+					<size>500,172</size>
+					<minsize>500,120</minsize>
+					<style>wxLC_REPORT|wxLC_SINGLE_SEL</style>
+				</object>
+				<flag>wxALL|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+		</object>
+	</object>
+</wxsmith>

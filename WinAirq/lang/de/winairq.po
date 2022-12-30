@@ -1,0 +1,430 @@
+# WinAirq
+# Copyright (C) 2022 PeCeT_full
+# This file is distributed under the same license as the WinAirq package.
+# PeCeT_full <me@pecetfull.pl>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WinAirq 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-18 20:45+0100\n"
+"PO-Revision-Date: 2022-12-23 23:59+0100\n"
+"Language-Team: PeCeT_full <me@pecetfull.pl>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.5\n"
+"Last-Translator: PeCeT_full <me@pecetfull.pl>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: de\n"
+
+#: dump/WinAirqMain.cpp:265
+msgid "&About..."
+msgstr "&Über..."
+
+#: dump/SettingsDialog.cpp:80
+msgid "&Apply"
+msgstr "Ü&bernehmen"
+
+#: dump/WinAirqMain.cpp:260
+msgid "&Settings"
+msgstr "&Einstellungen"
+
+#: dump/WinAirqMain.cpp:251 dump/WinAirqMain.cpp:257
+msgid "&Update"
+msgstr "&Aktualisieren"
+
+#: dump/AQILegendDialog.cpp:141
+msgid "(optional)"
+msgstr "(optional)"
+
+#: dump/WinAirqMain.cpp:652
+msgid ""
+".\n"
+"Build date: "
+msgstr ""
+".\n"
+"Build-Datum: "
+
+#: dump/AQILegendDialog.cpp:137 dump/WinAirqMain.cpp:213
+msgid "2.5 "
+msgstr "2,5 "
+
+#: dump/WinAirqMain.cpp:652
+msgid ""
+"A current air quality reading program for vintage computers connected to the "
+"Internet\n"
+"from the data retrieved from OpenWeatherMap's API.\n"
+"\n"
+"Build info: "
+msgstr ""
+"Ein Programm für altmodische Computer, die mit dem Internet verbunden sind, "
+"zum Lesen\n"
+"der aktuellen Luftqualität aus Daten, die von der API von OpenWeatherMap "
+"verschafft wurden.\n"
+"\n"
+"Build-Info: "
+
+#: dump/WinAirqMain.cpp:263
+msgid "AQI &legend"
+msgstr "AQI-&Legende"
+
+#: dump/AQILegendDialog.cpp:70
+msgid "Air quality index - Legend"
+msgstr "Luftqualitätsindex - Legende"
+
+#: dump/WinAirqMain.cpp:150
+msgid "Air quality:"
+msgstr "Luftqualität:"
+
+#: dump/SettingsDialog.cpp:122
+msgid ""
+"Another language has just been selected. To reflect all the changes, please "
+"restart the application."
+msgstr ""
+"Eine andere Sprache hat gerade ausgewählt worden. Um alle Änderungen zu "
+"übernehmen, starten Sie bitte die Anwendung neu."
+
+#: dump/wxTranslationHelper.cpp:70
+msgid "Array of language names and identifiers should have the same size."
+msgstr ""
+"Das Array von Sprachennamen und Kennungen sollte die gleiche Größe haben."
+
+#: dump/SettingsDialog.cpp:78
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: dump/SettingsDialog.cpp:71
+msgid "Change"
+msgstr "Ändern"
+
+#: dump/LocationDialog.cpp:289 dump/WinAirqMain.cpp:550
+msgid ""
+"Could not connect to the website. Please check your Internet connection and "
+"try again later."
+msgstr ""
+"Konnte keine Verbindung zur Webseite herstellen. Bitte überprüfen Sie Ihre "
+"Internetverbindung und versuchen Sie es später erneut."
+
+#: dump/LocationDialog.cpp:63
+msgid "Country"
+msgstr "Land"
+
+#: dump/SettingsDialog.cpp:69 dump/SettingsDialog.cpp:108
+msgid "Current language: "
+msgstr "Aktuelle Sprache: "
+
+#: dump/jsonreader.cpp:2132 dump/LocationDialog.cpp:155
+msgid "DEC_FRACTION_DOT"
+msgstr "DEC_FRACTION_COMMA"
+
+#: dump/WinAirqMain.cpp:144
+msgid "Date && time:"
+msgstr "Datum und Uhrzeit:"
+
+#: dump/WinAirqMain.cpp:268
+msgid "E&xit"
+msgstr "&Beenden"
+
+#: dump/LocationDialog.cpp:279 dump/LocationDialog.cpp:284
+#: dump/LocationDialog.cpp:289 dump/WinAirqApp.cpp:90 dump/WinAirqMain.cpp:532
+#: dump/WinAirqMain.cpp:541 dump/WinAirqMain.cpp:550
+msgid "Error"
+msgstr "Fehler"
+
+#: dump/AQILegendDialog.cpp:163 dump/WinAirqMain.cpp:474
+msgid "Fair"
+msgstr "Ausreichend"
+
+#: dump/AQILegendDialog.cpp:146 dump/WinAirqMain.cpp:466
+msgid "Good"
+msgstr "Gut"
+
+#: dump/wxTranslationHelper.cpp:71
+msgid "Language"
+msgstr "Sprache"
+
+#: dump/LocationDialog.cpp:65
+msgid "Latitude"
+msgstr "Breitengrad"
+
+#: dump/SettingsDialog.cpp:44 dump/WinAirqMain.cpp:139
+msgid "Location:"
+msgstr "Standort:"
+
+#: dump/LocationDialog.cpp:64
+msgid "Longitude"
+msgstr "Längengrad"
+
+#: dump/SettingsDialog.cpp:122
+msgid "Message"
+msgstr "Nachricht"
+
+#: dump/AQILegendDialog.cpp:180 dump/WinAirqMain.cpp:482
+msgid "Moderate"
+msgstr "Mäßig"
+
+#: dump/SettingsDialog.cpp:75 dump/WinAirqMain.cpp:248
+msgid "OK"
+msgstr "OK"
+
+#: dump/AQILegendDialog.cpp:82
+msgid "Pollutant concentration in micro-g/m "
+msgstr "Schadstoffkonzentration in Mikro-g/m "
+
+#: dump/AQILegendDialog.cpp:197 dump/WinAirqMain.cpp:490
+msgid "Poor"
+msgstr "Schlecht"
+
+#: dump/SettingsDialog.cpp:39
+msgid "Program settings"
+msgstr "Programmeinstellungen"
+
+#: dump/AQILegendDialog.cpp:75
+msgid "Qualitative name"
+msgstr "Qualitativer Name"
+
+#: dump/LocationDialog.cpp:41
+msgid "Search"
+msgstr "Suchen"
+
+#: dump/LocationDialog.cpp:32
+msgid "Search for location..."
+msgstr "Suche nach Standort..."
+
+#: dump/LocationDialog.cpp:223
+msgid "Searching, please wait..."
+msgstr "Suche, bitte warten..."
+
+#: dump/wxTranslationHelper.cpp:71
+msgid "Select your language."
+msgstr "Wählen Sie Ihre Sprache aus."
+
+#: dump/WinAirqMain.cpp:255
+msgid "Show &details"
+msgstr "&Details anzeigen"
+
+#: dump/SettingsDialog.cpp:55
+msgid "Show main window on program launch"
+msgstr "Hauptfenster beim Programmstart anzeigen"
+
+#: dump/LocationDialog.cpp:62
+msgid "State/Province"
+msgstr "Bundesstaat/Provinz"
+
+#: dump/LocationDialog.cpp:296
+msgid ""
+"The search phrase contains invalid characters, such as ^, ?, &, or =. Please "
+"remove them and try again."
+msgstr ""
+"Der Suchbegriff enthält ungültige Zeichen wie ^, ?, &, oder =. Bitte "
+"entfernen Sie ihnen und versuchen Sie es erneut."
+
+#: dump/WinAirqMain.cpp:654
+msgid ""
+"This program is published under The MIT License. For more information, "
+"please refer to the Licence.txt file included with the application."
+msgstr ""
+"Dieses Programm steht unter der MIT-Lizenz. Weitere Angaben hierzu finden "
+"Sie unter Licence.txt-Datei in der Anwendung enthalten."
+
+#: dump/LocationDialog.cpp:61
+msgid "Town"
+msgstr "Ort"
+
+#: dump/LocationDialog.cpp:44
+msgid "Translate town names"
+msgstr "Ortsnamen übersetzen"
+
+#: dump/WinAirqMain.cpp:532
+msgid ""
+"Unable to read data for the specified location. Please change the location "
+"or try again."
+msgstr ""
+"Die Daten für den angegebenen Standort können nicht gelesen werden. Bitte "
+"ändern Sie den Standort oder versuchen Sie es erneut."
+
+#: dump/LocationDialog.cpp:279
+msgid ""
+"Unable to read data for the specified search phrase. Please change the "
+"location or try again."
+msgstr ""
+"Die Daten für den angegebenen Suchbegriff können nicht gelesen werden. Bitte "
+"ändern Sie den Standort oder versuchen Sie es erneut."
+
+#: dump/LocationDialog.cpp:284 dump/WinAirqMain.cpp:541
+msgid "Unable to read data. Please try again later."
+msgstr ""
+"Die Daten können nicht gelesen werden. Bitte versuchen Sie es später erneut."
+
+#: dump/WinAirqMain.cpp:349 dump/WinAirqMain.cpp:370 dump/WinAirqMain.cpp:506
+msgid "Unknown"
+msgstr "Unbekannt"
+
+#: dump/WinAirqMain.cpp:554
+msgid "Unknown (connection error)"
+msgstr "Unbekannt (Verbindungsfehler)"
+
+#: dump/WinAirqMain.cpp:545
+msgid "Unknown (parse error)"
+msgstr "Unbekannt (Parse-Fehler)"
+
+#: dump/WinAirqMain.cpp:536
+msgid "Unknown (read error)"
+msgstr "Unbekannt (Lesefehler)"
+
+#: dump/SettingsDialog.cpp:61
+msgid "Update data every 15 minutes"
+msgstr "Daten alle 15 Minuten aktualisieren"
+
+#: dump/SettingsDialog.cpp:58
+msgid "Update data on program launch"
+msgstr "Daten beim Programmstart aktualisieren"
+
+#: dump/AQILegendDialog.cpp:214
+msgid "Very Poor"
+msgstr "Sehr schlecht"
+
+#: dump/WinAirqMain.cpp:498
+msgid "Very poor"
+msgstr "Sehr schlecht"
+
+#: dump/LocationDialog.cpp:228 dump/LocationDialog.cpp:296
+#: dump/WinAirqMain.cpp:422
+msgid "Warning"
+msgstr "Warnung"
+
+#: dump/WinAirqMain.cpp:134 dump/WinAirqMain.cpp:649
+msgid "WinAirq"
+msgstr "WinAirq"
+
+#: dump/WinAirqMain.cpp:468 dump/WinAirqMain.cpp:476 dump/WinAirqMain.cpp:484
+#: dump/WinAirqMain.cpp:492 dump/WinAirqMain.cpp:500 dump/WinAirqMain.cpp:508
+msgid "WinAirq - Air quality: "
+msgstr "WinAirq - Luftqualität: "
+
+#: dump/WinAirqApp.cpp:90
+msgid ""
+"You are using a version of WinAirq that has an invalid API key for "
+"OpenWeatherMap services. Please contact your software provider and ask for a "
+"valid build.\n"
+"\n"
+"The application will terminate now."
+msgstr ""
+"Sie verwenden eine Version von WinAirq mit einem ungültigen API-Schlüssel "
+"für OpenWeatherMap-Dienste. Bitte kontaktieren Sie Ihren Softwareanbieter "
+"und fragen Sie nach einem gültigen Build.\n"
+"\n"
+"Die Anwendung wird jetzt beendet."
+
+#: dump/WinAirqMain.cpp:422
+msgid ""
+"You have not specified the location. Please go to the settings and specify "
+"your location."
+msgstr ""
+"Sie haben keinen Standort angegeben. Bitte gehen Sie in die Einstellungen "
+"und geben Sie Ihren Standort an."
+
+#: dump/LocationDialog.cpp:228
+msgid "You need to enter the desired location in order to proceed."
+msgstr "Sie müssen den gewünschten Standort eingeben, um fortzufahren."
+
+#: dump/WinAirqMain.cpp:653
+msgid "https://www.pecetfull.pl"
+msgstr "http://www.pecetfull.pl/de"
+
+#: OK (with hotkey)
+msgid "&OK"
+msgstr "&OK"
+
+#: Cancel (with hotkey)
+msgid "&Cancel"
+msgstr "&Abbrechen"
+
+#: About
+msgid "About "
+msgstr "Über "
+
+#: License
+msgid "License"
+msgstr "Lizenz"
+
+#: English
+msgid "English"
+msgstr "Englisch"
+
+#: English (Canada)
+msgid "English (Canada)"
+msgstr "Englisch (Kanada)"
+
+#: German
+msgid "German"
+msgstr "Deutsch"
+
+#: Polish
+msgid "Polish"
+msgstr "Polnisch"
+
+#: Greater Poland Voivodeship
+msgid "Greater Poland Voivodeship"
+msgstr "Woiwodschaft Großpolen"
+
+#: Lesser Poland Voivodeship
+msgid "Lesser Poland Voivodeship"
+msgstr "Woiwodschaft Kleinpolen"
+
+#: Lower Silesian Voivodeship
+msgid "Lower Silesian Voivodeship"
+msgstr "Woiwodschaft Niederschlesien"
+
+#: Lublin Voivodeship
+msgid "Lublin Voivodeship"
+msgstr "Woiwodschaft Lublin"
+
+#: Lubusz Voivodeship
+msgid "Lubusz Voivodeship"
+msgstr "Woiwodschaft Lebus"
+
+#: Łódź Voivodeship
+msgid "Łódź Voivodeship"
+msgstr "Woiwodschaft Łódź"
+
+#: Kuyavian-Pomeranian Voivodeship
+msgid "Kuyavian-Pomeranian Voivodeship"
+msgstr "Woiwodschaft Kujawien-Pommern"
+
+#: Masovian Voivodeship
+msgid "Masovian Voivodeship"
+msgstr "Woiwodschaft Masowien"
+
+#: Opole Voivodeship
+msgid "Opole Voivodeship"
+msgstr "Woiwodschaft Opole"
+
+#: Podlaskie Voivodeship
+msgid "Podlaskie Voivodeship"
+msgstr "Woiwodschaft Podlachien"
+
+#: Pomeranian Voivodeship
+msgid "Pomeranian Voivodeship"
+msgstr "Woiwodschaft Pommern"
+
+#: Silesian Voivodeship
+msgid "Silesian Voivodeship"
+msgstr "Woiwodschaft Schlesien"
+
+#: Subcarpathian Voivodeship
+msgid "Subcarpathian Voivodeship"
+msgstr "Woiwodschaft Karpatenvorland"
+
+#: Świętokrzyskie Voivodeship
+msgid "Świętokrzyskie Voivodeship"
+msgstr "Woiwodschaft Heiligkreuz"
+
+#: Warmian-Masurian Voivodeship
+msgid "Warmian-Masurian Voivodeship"
+msgstr "Woiwodschaft Ermland-Masuren"
+
+#: West Pomeranian Voivodeship
+msgid "West Pomeranian Voivodeship"
+msgstr "Woiwodschaft Westpommern"

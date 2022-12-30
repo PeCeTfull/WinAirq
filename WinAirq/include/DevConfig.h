@@ -1,0 +1,6 @@
+#ifndef DEVCONFIG_H
+#define DEVCONFIG_H
+
+#define OPENWEATHERMAP_APIKEY "CHANGE_ME"
+
+#endif // DEVCONFIG_H

@@ -1,0 +1,89 @@
+**** Czytaj to - Polski, CE ****
+
+WinAirq 1.0
+Autor: PeCeT_full
+Strona WWW: http://www.pecetfull.pl/pl
+Copyright © by PeCeT_full 2022. Program WinAirq jest publikowany na zasadach licencji MIT. Wiêcej informacji mo¿na uzyskaæ zapoznaj¹c siê z plikiem Licence.txt do³¹czonym do aplikacji (polskie t³umaczenie licencji MIT: http://blaszyk-jarosinski.pl/wp-content/uploads/2008/05/licencja-mit-tlumaczenie.pdf).
+
+W razie wszelkich problemów czy te¿ w¹tpliwoœci proszê o kontakt.
+
+-------------
+Opis programu
+-------------
+
+WinAirq jest programem do odczytywania obecnej jakoœci powietrza dla zabytkowych komputerów pod³¹czonych do sieci WWW z danych pozyskiwanych z API serwisu OpenWeatherMap. Zosta³ on napisany w jêzyku C++ i korzysta z biblioteki graficznego interfejsu u¿ytkownika wxWidgets.
+
+Minimalne wymagania sprzêtowe i systemowe: procesor o mocy 133 MHz lub szybszy; 16 MB dostêpnej pamiêci RAM; 3 MB dostêpnego wolnego miejsca na dysku, w którym znajduje siê program; system operacyjny Windows 95 lub nowszy; aktywne po³¹czenie z Internetem.
+
+--------------------------------------------
+Przygotowanie do pracy z systemem Windows 95
+--------------------------------------------
+
+Aby oprogramowanie mog³o prawid³owo dzia³aæ na Twoim komputerze z systemem Windows 95, musisz mieæ zainstalowan¹ przegl¹darkê Microsoft Internet Explorer 5.0 lub 5.5. Instalatory programu Internet Explorer tych¿e w³aœnie wersji aktualizuj¹ pewne istotne pliki systemowe, dziêki czemu okno wyszukiwania po³o¿enia mo¿e byæ bezb³êdnie ukazane na ekranie.
+
+----------------
+Obs³uga programu
+----------------
+
+Program jest ³adowany do zasobnika systemowego - domyœlnie powinien znajdowaæ siê na prawym dolnym rogu ekranu komputera. Je¿eli uruchamiamy program WinAirq po raz pierwszy, powinna pojawiæ siê ikona przedstawiaj¹ca szary znak zapytania na bia³ym tle. Jeœli nie mo¿emy jej tam zobaczyæ, powinniœmy rozszerzyæ zasobnik systemowy klikaj¹c w strza³k(ê/i).
+
+Naciskamy prawym przyciskiem myszy na ikonie aplikacji i przechodzimy do sekcji Ustawienia, gdy¿ jest to jeden z niezbêdnych kroków, aby zacz¹æ obserwowaæ jakoœæ powietrza Twojego po³o¿enia. Klikamy na przycisk z gwiazdk¹ i korzystamy z paska wyszukiwania w celu jego znalezienia. Mo¿emy mieæ ró¿ne opcje do wyboru. Po zaznaczeniu swojego po¿¹danego po³o¿enia klikamy OK, a nastêpnie zastosowujemy ustawienia. Teraz jesteœmy gotowi do odczytywania danych - wystarczy dwukrotnie klikn¹æ na ikonie w zasobniku za pomoc¹ lewego przycisku myszy, ¿eby wyœwietliæ okno g³ówne i nacisn¹æ Zaktualizuj. Je¿eli wszystko siê powiod³o, powinniœmy w stanie zobaczyæ obecn¹ jakoœæ powietrza ze wszystkimi szczegó³ami.
+
+-------------
+Szczegó³y AQI
+-------------
+
+Oprócz podstawowego indeksu jakoœci powietrza (AQI, ang. Air Quality Index) mo¿na odnaleŸæ dane o gazach zanieczyszczaj¹cych, takich jak: 
+
+* tlenek wêgla (CO), 
+
+* tlenek azotu (NO), 
+
+* dwutlenek azotu (NO ), 
+                     2
+* ozon (O ), 
+         3
+* dwutlenek siarki (SO ), 
+                      2
+* amoniak (NH ), 
+             3
+* cz¹stki sta³e (PM    oraz PM  ).
+                   2,5        10
+                      
+Oto opis poziomów AQI: 
+
++------------------+--------------------------------------------------+
+|                  |                                      3           |
+|                  | Stê¿enie zanieczyszczenia w mikro-g/m            |
+|                  |                                                  |
+| Nazwa jakoœciowa |---------+---------+---------+--------------------+
+|                  |         |         |         |                    |
+|                  | NO      | PM      | O       | PM    (opcjonalne) |
+|                  |   2     |   10    |  3      |   2,5              |
++------------------+---------+---------+---------+--------------------+
+| Dobra            | 0-50    | 0-25    | 0-60    | 0-15               |
+| Dostateczna      | 50-100  | 25-50   | 60-120  | 15-30              |
+| Umiarkowana      | 100-200 | 50-90   | 120-180 | 30-55              |
+| Niska            | 200-400 | 90-180  | 180-240 | 55-110             |
+| Bardzo niska     | >400    | >180    | >240    | >110               |
++------------------+---------+---------+---------+--------------------+
+
+Legenda jest równie¿ dostêpna z menu kontekstowego WinAirq i mo¿e byæ u¿ywana do bezpoœrednich porównañ.
+
+-------------------
+Ustawienia programu
+-------------------
+
+Mo¿na dostosowThe following options can be adjusted: 
+
+* po³o¿enie, 
+
+* poka¿ okno g³ówne przy uruchamianiu programu, 
+
+* aktualizuj dane przy uruchamianiu programu, 
+
+* aktualizuj dane co 15 minut, 
+
+* jêzyk interfejsu u¿ytkownika.
+
+Po prze³¹czeniu siê na inny jêzyk interfejsu konieczne jest ponowne uruchomienie aplikacji w celu odzwierciedlenia wszelkich zmian.

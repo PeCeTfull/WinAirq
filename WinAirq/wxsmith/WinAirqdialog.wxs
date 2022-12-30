@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxDialog" name="WinAirqDialog">
+		<title>WinAirq</title>
+		<centered>1</centered>
+		<id_arg>0</id_arg>
+		<object class="wxFlexGridSizer" variable="FgsMain" member="no">
+			<cols>1</cols>
+			<rows>4</rows>
+			<object class="sizeritem">
+				<object class="wxPanel" name="ID_PNLHEADER" variable="PnlHeader" member="yes">
+					<bg>wxSYS_COLOUR_WINDOW</bg>
+					<style>wxSUNKEN_BORDER|wxTAB_TRAVERSAL</style>
+					<object class="wxFlexGridSizer" variable="FgsHeader" member="no">
+						<cols>2</cols>
+						<rows>3</rows>
+						<object class="sizeritem">
+							<object class="wxStaticText" name="ID_LBLLOCATION" variable="LblLocation" member="yes">
+								<label>Location:</label>
+								<minsize>120,-1</minsize>
+							</object>
+							<flag>wxALL|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxStaticText" name="ID_LBLLOCATIONVAL" variable="LblLocationVal" member="yes">
+								<label>?</label>
+							</object>
+							<flag>wxALL|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxStaticText" name="ID_LBLDATETIME" variable="LblDateTime" member="yes">
+								<label>Date &amp;&amp; time:</label>
+								<minsize>120,-1</minsize>
+							</object>
+							<flag>wxALL|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxStaticText" name="ID_LBLDATETIMEVAL" variable="LblDateTimeVal" member="yes">
+								<label>?</label>
+								<minsize>120,-1</minsize>
+							</object>
+							<flag>wxALL|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxStaticText" name="ID_LBLAIRQUALITY" variable="LblAirQuality" member="yes">
+								<label>Air quality:</label>
+								<minsize>120,-1</minsize>
+							</object>
+							<flag>wxALL|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxStaticText" name="ID_LBLAIRQUALITYVAL" variable="LblAirQualityVal" member="yes">
+								<label>?</label>
+								<minsize>120,-1</minsize>
+							</object>
+							<flag>wxALL|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+					</object>
+				</object>
+				<flag>wxALL|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+			<object class="sizeritem">
+				<object class="wxStaticLine" name="ID_STATICLINE1" variable="StaticLine1" member="yes">
+					<size>10,-1</size>
+				</object>
+				<flag>wxALL|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+			<object class="sizeritem">
+				<object class="wxPanel" name="ID_PNLMEASURES" variable="PnlMeasures" member="yes">
+					<bg>wxSYS_COLOUR_WINDOW</bg>
+					<style>wxSUNKEN_BORDER|wxTAB_TRAVERSAL</style>
+					<object class="wxFlexGridSizer" variable="FgsMeasures" member="no">
+						<cols>2</cols>
+						<rows>8</rows>
+						<object class="sizeritem">
+							<object class="wxStaticText" name="ID_LBLCO" variable="LblCO" member="yes">
+								<label>CO:</label>
+								<minsize>120,-1</minsize>
+							</object>
+							<flag>wxALL|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxStaticText" name="ID_LBLCOVAL" variable="LblCOVal" member="yes">
+								<label>?</label>
+								<minsize>120,-1</minsize>
+							</object>
+							<flag>wxALL|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxStaticText" name="ID_LBLNO" variable="LblNO" member="yes">
+								<label>NO:</label>
+								<minsize>120,-1</minsize>
+							</object>
+							<flag>wxALL|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxStaticText" name="ID_LBLNOVAL" variable="LblNOVal" member="yes">
+								<label>?</label>
+								<minsize>120,-1</minsize>
+							</object>
+							<flag>wxALL|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxFlexGridSizer" variable="FgsNO2" member="no">
+								<cols>3</cols>
+								<object class="sizeritem">
+									<object class="wxStaticText" name="ID_LBLNO2_1" variable="LblNO2_1" member="yes">
+										<label>NO </label>
+									</object>
+									<flag>wxTOP|wxBOTTOM|wxLEFT|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+									<border>5</border>
+									<option>1</option>
+								</object>
+								<object class="sizeritem">
+									<object class="wxStaticText" name="ID_LBLNO2_2" variable="LblNO2_2" member="yes">
+										<label>2 </label>
+									</object>
+									<flag>wxTOP|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+									<border>5</border>
+									<option>1</option>
+								</object>
+								<object class="sizeritem">
+									<object class="wxStaticText" name="ID_LBLNO2_3" variable="LblNO2_3" member="yes">
+										<label>:</label>
+									</object>
+									<flag>wxTOP|wxBOTTOM|wxRIGHT|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+									<border>5</border>
+									<option>1</option>
+								</object>
+							</object>
+							<flag>wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxStaticText" name="ID_LBLNO2VAL" variable="LblNO2Val" member="yes">
+								<label>?</label>
+								<minsize>120,-1</minsize>
+							</object>
+							<flag>wxALL|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxFlexGridSizer" variable="FgsO3" member="no">
+								<cols>3</cols>
+								<object class="sizeritem">
+									<object class="wxStaticText" name="ID_LBLO3_1" variable="LblO3_1" member="yes">
+										<label>O </label>
+									</object>
+									<flag>wxTOP|wxBOTTOM|wxLEFT|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+									<border>5</border>
+									<option>1</option>
+								</object>
+								<object class="sizeritem">
+									<object class="wxStaticText" name="ID_LBLO3_2" variable="LblO3_2" member="yes">
+										<label>3 </label>
+									</object>
+									<flag>wxTOP|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+									<border>5</border>
+									<option>1</option>
+								</object>
+								<object class="sizeritem">
+									<object class="wxStaticText" name="ID_LBLO3_3" variable="LblO3_3" member="yes">
+										<label>:</label>
+									</object>
+									<flag>wxTOP|wxBOTTOM|wxRIGHT|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+									<border>5</border>
+									<option>1</option>
+								</object>
+							</object>
+							<flag>wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxStaticText" name="ID_LBLO3VAL" variable="LblO3Val" member="yes">
+								<label>?</label>
+								<minsize>120,-1</minsize>
+							</object>
+							<flag>wxALL|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxFlexGridSizer" variable="FgsSO2" member="no">
+								<cols>3</cols>
+								<object class="sizeritem">
+									<object class="wxStaticText" name="ID_LBLSO2_1" variable="LblSO2_1" member="yes">
+										<label>SO </label>
+									</object>
+									<flag>wxTOP|wxBOTTOM|wxLEFT|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+									<border>5</border>
+									<option>1</option>
+								</object>
+								<object class="sizeritem">
+									<object class="wxStaticText" name="ID_LBLSO2_2" variable="LblSO2_2" member="yes">
+										<label>2 </label>
+									</object>
+									<flag>wxTOP|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+									<border>5</border>
+									<option>1</option>
+								</object>
+								<object class="sizeritem">
+									<object class="wxStaticText" name="ID_LBLSO2_3" variable="LblSO2_3" member="yes">
+										<label>:</label>
+									</object>
+									<flag>wxTOP|wxBOTTOM|wxRIGHT|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+									<border>5</border>
+									<option>1</option>
+								</object>
+							</object>
+							<flag>wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxStaticText" name="ID_LBLSO2VAL" variable="LblSO2Val" member="yes">
+								<label>?</label>
+								<minsize>120,-1</minsize>
+							</object>
+							<flag>wxALL|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxFlexGridSizer" variable="FgsPM25" member="no">
+								<cols>3</cols>
+								<object class="sizeritem">
+									<object class="wxStaticText" name="ID_LBLPM25_1" variable="LblPM25_1" member="yes">
+										<label>PM </label>
+									</object>
+									<flag>wxTOP|wxBOTTOM|wxLEFT|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+									<border>5</border>
+									<option>1</option>
+								</object>
+								<object class="sizeritem">
+									<object class="wxStaticText" name="ID_LBLPM25_2" variable="LblPM25_2" member="yes">
+										<label>2.5 </label>
+									</object>
+									<flag>wxTOP|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+									<border>5</border>
+									<option>1</option>
+								</object>
+								<object class="sizeritem">
+									<object class="wxStaticText" name="ID_LBLPM25_3" variable="LblPM25_3" member="yes">
+										<label>:</label>
+									</object>
+									<flag>wxTOP|wxBOTTOM|wxRIGHT|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+									<border>5</border>
+									<option>1</option>
+								</object>
+							</object>
+							<flag>wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxStaticText" name="ID_LBLPM25VAL" variable="LblPM25Val" member="yes">
+								<label>?</label>
+								<minsize>120,-1</minsize>
+							</object>
+							<flag>wxALL|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxFlexGridSizer" variable="FgsPM10" member="no">
+								<cols>3</cols>
+								<object class="sizeritem">
+									<object class="wxStaticText" name="ID_LBLPM10_1" variable="LblPM10_1" member="yes">
+										<label>PM </label>
+									</object>
+									<flag>wxTOP|wxBOTTOM|wxLEFT|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+									<border>5</border>
+									<option>1</option>
+								</object>
+								<object class="sizeritem">
+									<object class="wxStaticText" name="ID_LBLPM10_2" variable="LblPM10_2" member="yes">
+										<label>10 </label>
+									</object>
+									<flag>wxTOP|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+									<border>5</border>
+									<option>1</option>
+								</object>
+								<object class="sizeritem">
+									<object class="wxStaticText" name="ID_LBLPM10_3" variable="LblPM10_3" member="yes">
+										<label>:</label>
+									</object>
+									<flag>wxTOP|wxBOTTOM|wxRIGHT|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+									<border>5</border>
+									<option>1</option>
+								</object>
+							</object>
+							<flag>wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxStaticText" name="ID_LBLPM10VAL" variable="LblPM10Val" member="yes">
+								<label>?</label>
+								<minsize>120,-1</minsize>
+							</object>
+							<flag>wxALL|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxFlexGridSizer" variable="FgsNH3" member="no">
+								<cols>3</cols>
+								<object class="sizeritem">
+									<object class="wxStaticText" name="ID_LBLNH3_1" variable="LblNH3_1" member="yes">
+										<label>NH </label>
+									</object>
+									<flag>wxTOP|wxBOTTOM|wxLEFT|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+									<border>5</border>
+									<option>1</option>
+								</object>
+								<object class="sizeritem">
+									<object class="wxStaticText" name="ID_LBLNH3_2" variable="LblNH3_2" member="yes">
+										<label>3 </label>
+									</object>
+									<flag>wxTOP|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+									<border>5</border>
+									<option>1</option>
+								</object>
+								<object class="sizeritem">
+									<object class="wxStaticText" name="ID_LBLNH3_3" variable="LblNH3_3" member="yes">
+										<label>:</label>
+									</object>
+									<flag>wxTOP|wxBOTTOM|wxRIGHT|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+									<border>5</border>
+									<option>1</option>
+								</object>
+							</object>
+							<flag>wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxStaticText" name="ID_LBLNH3VAL" variable="LblNH3Val" member="yes">
+								<label>?</label>
+								<minsize>120,-1</minsize>
+							</object>
+							<flag>wxALL|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+					</object>
+				</object>
+				<flag>wxALL|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+			<object class="sizeritem">
+				<object class="wxFlexGridSizer" variable="FgsButtons" member="no">
+					<cols>3</cols>
+					<object class="sizeritem">
+						<object class="wxButton" name="wxID_OK" variable="BtnOK" member="yes">
+							<label>OK</label>
+							<default>1</default>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5d</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxButton" name="ID_BTNUPDATE" variable="BtnUpdate" member="yes">
+							<label>&amp;Update</label>
+							<handler function="OnBtnUpdateClick" entry="EVT_BUTTON" />
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5d</border>
+						<option>1</option>
+					</object>
+				</object>
+				<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+		</object>
+		<object class="wxMenu" variable="TaskbarMenu" member="yes">
+			<object class="wxMenuItem" name="idMenuDetails" variable="MenuItem5" member="yes">
+				<label>Show &amp;details</label>
+			</object>
+			<object class="wxMenuItem" name="idMenuUpdate" variable="MenuItem3" member="yes">
+				<label>&amp;Update</label>
+			</object>
+			<object class="separator" />
+			<object class="wxMenuItem" name="idMenuSettings" variable="MenuItem4" member="yes">
+				<label>&amp;Settings</label>
+			</object>
+			<object class="separator" />
+			<object class="wxMenuItem" name="idMenuAQILegend" variable="MenuItem6" member="yes">
+				<label>AQI &amp;legend</label>
+			</object>
+			<object class="wxMenuItem" name="idMenuAbout" variable="MenuItem1" member="yes">
+				<label>&amp;About...</label>
+			</object>
+			<object class="separator" />
+			<object class="wxMenuItem" name="idMenuExit" variable="MenuItem2" member="yes">
+				<label>E&amp;xit</label>
+			</object>
+		</object>
+	</object>
+</wxsmith>

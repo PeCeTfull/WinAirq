@@ -1,0 +1,1 @@
+xgettext dump/* -d winairq -s --keyword=_ -p dump/ -o winairq.pot
