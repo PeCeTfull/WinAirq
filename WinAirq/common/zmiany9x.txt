@@ -1,0 +1,9 @@
+Spis zmian programu WinAirq
+
+1.0.1 (26.IV.2023): 
+* dodano nowe japoñskie t³umaczenie; 
+* zaktualizowano legendê AQI do najnowszej na stronie https://openweathermap.org/api/air-pollution; 
+* skorygowano kolorowanie pomiarów, aby w³aœciwie odnosi³y siê do tabeli AQI; 
+* poprawiono status zasobnika systemowego, by pojawia³ siê tak¿e na nieznanej jakoœci powietrza.
+
+1.0 (30.XII.2022) — pierwsza publicznie wydana wersja.

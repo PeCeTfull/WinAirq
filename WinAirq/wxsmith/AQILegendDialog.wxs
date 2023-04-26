@@ -71,7 +71,7 @@
 					<style>wxSUNKEN_BORDER|wxTAB_TRAVERSAL</style>
 					<handler function="OnKeyDown" entry="EVT_KEY_DOWN" />
 					<object class="wxFlexGridSizer" variable="FgsValues" member="no">
-						<cols>5</cols>
+						<cols>7</cols>
 						<rows>6</rows>
 						<object class="sizeritem">
 							<object class="wxStaticText" name="ID_STATICTEXT4" variable="StaticText4" member="yes">
@@ -80,6 +80,37 @@
 								<maxsize>130,-1</maxsize>
 							</object>
 							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxFlexGridSizer" variable="FgsSO2" member="no">
+								<cols>2</cols>
+								<rows>1</rows>
+								<object class="sizeritem">
+									<object class="wxStaticText" name="ID_LBLSO2_1" variable="LblSO2_1" member="yes">
+										<label>SO </label>
+										<font>
+											<weight>bold</weight>
+										</font>
+									</object>
+									<flag>wxTOP|wxBOTTOM|wxLEFT|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+									<border>5</border>
+									<option>1</option>
+								</object>
+								<object class="sizeritem">
+									<object class="wxStaticText" name="ID_LBLSO2_2" variable="LblSO2_2" member="yes">
+										<label>2</label>
+										<font>
+											<weight>bold</weight>
+										</font>
+									</object>
+									<flag>wxTOP|wxRIGHT|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+									<border>5</border>
+									<option>1</option>
+								</object>
+							</object>
+							<flag>wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
 							<border>5</border>
 							<option>1</option>
 						</object>
@@ -146,11 +177,42 @@
 							<option>1</option>
 						</object>
 						<object class="sizeritem">
+							<object class="wxFlexGridSizer" variable="FgsPM25" member="no">
+								<cols>2</cols>
+								<rows>1</rows>
+								<object class="sizeritem">
+									<object class="wxStaticText" name="ID_LBLPM25_1" variable="LblPM25_1" member="yes">
+										<label>PM </label>
+										<font>
+											<weight>bold</weight>
+										</font>
+									</object>
+									<flag>wxTOP|wxBOTTOM|wxLEFT|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+									<border>5</border>
+									<option>1</option>
+								</object>
+								<object class="sizeritem">
+									<object class="wxStaticText" name="ID_LBLPM25_2" variable="LblPM25_2" member="yes">
+										<label>2.5</label>
+										<font>
+											<weight>bold</weight>
+										</font>
+									</object>
+									<flag>wxTOP|wxRIGHT|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+									<border>5</border>
+									<option>1</option>
+								</object>
+							</object>
+							<flag>wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
 							<object class="wxFlexGridSizer" variable="FgsO3" member="no">
 								<cols>2</cols>
 								<rows>1</rows>
 								<object class="sizeritem">
-									<object class="wxStaticText" name="ID_LBLO3_1" variable="LblO3_1" member="yes">
+									<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
 										<label>O </label>
 										<font>
 											<weight>bold</weight>
@@ -161,7 +223,7 @@
 									<option>1</option>
 								</object>
 								<object class="sizeritem">
-									<object class="wxStaticText" name="ID_LBLO3_2" variable="LblO3_2" member="yes">
+									<object class="wxStaticText" name="ID_STATICTEXT2" variable="StaticText2" member="yes">
 										<label>3</label>
 										<font>
 											<weight>bold</weight>
@@ -177,39 +239,17 @@
 							<option>1</option>
 						</object>
 						<object class="sizeritem">
-							<object class="wxFlexGridSizer" variable="FgsPM25" member="no">
-								<cols>3</cols>
+							<object class="wxFlexGridSizer" variable="FgsCO" member="no">
+								<cols>2</cols>
 								<rows>1</rows>
 								<object class="sizeritem">
-									<object class="wxStaticText" name="ID_LBLPM25_1" variable="LblPM25_1" member="yes">
-										<label>PM </label>
+									<object class="wxStaticText" name="ID_LBLCO" variable="LblCO" member="yes">
+										<label>CO</label>
 										<font>
 											<weight>bold</weight>
 										</font>
 									</object>
-									<flag>wxTOP|wxBOTTOM|wxLEFT|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
-									<border>5</border>
-									<option>1</option>
-								</object>
-								<object class="sizeritem">
-									<object class="wxStaticText" name="ID_LBLPM25_2" variable="LblPM25_2" member="yes">
-										<label>2.5 </label>
-										<font>
-											<weight>bold</weight>
-										</font>
-									</object>
-									<flag>wxTOP|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
-									<border>5</border>
-									<option>1</option>
-								</object>
-								<object class="sizeritem">
-									<object class="wxStaticText" name="ID_LBLPM25_3" variable="LblPM25_3" member="yes">
-										<label>(optional)</label>
-										<font>
-											<weight>bold</weight>
-										</font>
-									</object>
-									<flag>wxTOP|wxBOTTOM|wxRIGHT|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+									<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
 									<border>5</border>
 									<option>1</option>
 								</object>
@@ -232,7 +272,7 @@
 						</object>
 						<object class="sizeritem">
 							<object class="wxStaticText" name="ID_LBLVALUES1" variable="LblValues1" member="yes">
-								<label>0-50</label>
+								<label>0-20</label>
 								<fg>#008000</fg>
 							</object>
 							<flag>wxALL|wxALIGN_RIGHT|wxALIGN_CENTER_VERTICAL</flag>
@@ -241,7 +281,7 @@
 						</object>
 						<object class="sizeritem">
 							<object class="wxStaticText" name="ID_LBLVALUES2" variable="LblValues2" member="yes">
-								<label>0-25</label>
+								<label>0-40</label>
 								<fg>#008000</fg>
 							</object>
 							<flag>wxALL|wxALIGN_RIGHT|wxALIGN_CENTER_VERTICAL</flag>
@@ -250,7 +290,7 @@
 						</object>
 						<object class="sizeritem">
 							<object class="wxStaticText" name="ID_LBLVALUES3" variable="LblValues3" member="yes">
-								<label>0-60</label>
+								<label>0-20</label>
 								<fg>#008000</fg>
 							</object>
 							<flag>wxALL|wxALIGN_RIGHT|wxALIGN_CENTER_VERTICAL</flag>
@@ -259,7 +299,25 @@
 						</object>
 						<object class="sizeritem">
 							<object class="wxStaticText" name="ID_LBLVALUES4" variable="LblValues4" member="yes">
-								<label>0-15</label>
+								<label>0-10</label>
+								<fg>#008000</fg>
+							</object>
+							<flag>wxALL|wxALIGN_RIGHT|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxStaticText" name="ID_LBLVALUES5" variable="LblValues5" member="yes">
+								<label>0-60</label>
+								<fg>#008000</fg>
+							</object>
+							<flag>wxALL|wxALIGN_RIGHT|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxStaticText" name="ID_LBLVALUES6" variable="LblValues6" member="yes">
+								<label>0-4400</label>
 								<fg>#008000</fg>
 							</object>
 							<flag>wxALL|wxALIGN_RIGHT|wxALIGN_CENTER_VERTICAL</flag>
@@ -279,26 +337,8 @@
 							<option>1</option>
 						</object>
 						<object class="sizeritem">
-							<object class="wxStaticText" name="ID_LBLVALUES5" variable="LblValues5" member="yes">
-								<label>50-100</label>
-								<fg>#0000FF</fg>
-							</object>
-							<flag>wxALL|wxALIGN_RIGHT|wxALIGN_CENTER_VERTICAL</flag>
-							<border>5</border>
-							<option>1</option>
-						</object>
-						<object class="sizeritem">
-							<object class="wxStaticText" name="ID_LBLVALUES6" variable="LblValues6" member="yes">
-								<label>25-50</label>
-								<fg>#0000FF</fg>
-							</object>
-							<flag>wxALL|wxALIGN_RIGHT|wxALIGN_CENTER_VERTICAL</flag>
-							<border>5</border>
-							<option>1</option>
-						</object>
-						<object class="sizeritem">
 							<object class="wxStaticText" name="ID_LBLVALUES7" variable="LblValues7" member="yes">
-								<label>60-120</label>
+								<label>20-80</label>
 								<fg>#0000FF</fg>
 							</object>
 							<flag>wxALL|wxALIGN_RIGHT|wxALIGN_CENTER_VERTICAL</flag>
@@ -307,7 +347,43 @@
 						</object>
 						<object class="sizeritem">
 							<object class="wxStaticText" name="ID_LBLVALUES8" variable="LblValues8" member="yes">
-								<label>15-30</label>
+								<label>40-70</label>
+								<fg>#0000FF</fg>
+							</object>
+							<flag>wxALL|wxALIGN_RIGHT|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxStaticText" name="ID_LBLVALUES9" variable="LblValues9" member="yes">
+								<label>20-50</label>
+								<fg>#0000FF</fg>
+							</object>
+							<flag>wxALL|wxALIGN_RIGHT|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxStaticText" name="ID_LBLVALUES10" variable="LblValues10" member="yes">
+								<label>10-25</label>
+								<fg>#0000FF</fg>
+							</object>
+							<flag>wxALL|wxALIGN_RIGHT|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxStaticText" name="ID_LBLVALUES11" variable="LblValues11" member="yes">
+								<label>60-100</label>
+								<fg>#0000FF</fg>
+							</object>
+							<flag>wxALL|wxALIGN_RIGHT|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxStaticText" name="ID_LBLVALUES12" variable="LblValues12" member="yes">
+								<label>4400-9400</label>
 								<fg>#0000FF</fg>
 							</object>
 							<flag>wxALL|wxALIGN_RIGHT|wxALIGN_CENTER_VERTICAL</flag>
@@ -327,8 +403,8 @@
 							<option>1</option>
 						</object>
 						<object class="sizeritem">
-							<object class="wxStaticText" name="ID_LBLVALUES9" variable="LblValues9" member="yes">
-								<label>100-200</label>
+							<object class="wxStaticText" name="ID_LBLVALUES13" variable="LblValues13" member="yes">
+								<label>80-250</label>
 								<fg>#808000</fg>
 							</object>
 							<flag>wxALL|wxALIGN_RIGHT|wxALIGN_CENTER_VERTICAL</flag>
@@ -336,8 +412,8 @@
 							<option>1</option>
 						</object>
 						<object class="sizeritem">
-							<object class="wxStaticText" name="ID_LBLVALUES10" variable="LblValues10" member="yes">
-								<label>50-90</label>
+							<object class="wxStaticText" name="ID_LBLVALUES14" variable="LblValues14" member="yes">
+								<label>70-150</label>
 								<fg>#808000</fg>
 							</object>
 							<flag>wxALL|wxALIGN_RIGHT|wxALIGN_CENTER_VERTICAL</flag>
@@ -345,8 +421,8 @@
 							<option>1</option>
 						</object>
 						<object class="sizeritem">
-							<object class="wxStaticText" name="ID_LBLVALUES11" variable="LblValues11" member="yes">
-								<label>120-180</label>
+							<object class="wxStaticText" name="ID_LBLVALUES15" variable="LblValues15" member="yes">
+								<label>50-100</label>
 								<fg>#808000</fg>
 							</object>
 							<flag>wxALL|wxALIGN_RIGHT|wxALIGN_CENTER_VERTICAL</flag>
@@ -354,8 +430,26 @@
 							<option>1</option>
 						</object>
 						<object class="sizeritem">
-							<object class="wxStaticText" name="ID_LBLVALUES12" variable="LblValues12" member="yes">
-								<label>30-55</label>
+							<object class="wxStaticText" name="ID_LBLVALUES16" variable="LblValues16" member="yes">
+								<label>25-50</label>
+								<fg>#808000</fg>
+							</object>
+							<flag>wxALL|wxALIGN_RIGHT|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxStaticText" name="ID_LBLVALUES17" variable="LblValues17" member="yes">
+								<label>100-140</label>
+								<fg>#808000</fg>
+							</object>
+							<flag>wxALL|wxALIGN_RIGHT|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxStaticText" name="ID_LBLVALUES18" variable="LblValues18" member="yes">
+								<label>9400-12400</label>
 								<fg>#808000</fg>
 							</object>
 							<flag>wxALL|wxALIGN_RIGHT|wxALIGN_CENTER_VERTICAL</flag>
@@ -375,8 +469,8 @@
 							<option>1</option>
 						</object>
 						<object class="sizeritem">
-							<object class="wxStaticText" name="ID_LBLVALUES13" variable="LblValues13" member="yes">
-								<label>200-400</label>
+							<object class="wxStaticText" name="ID_LBLVALUES19" variable="LblValues19" member="yes">
+								<label>250-350</label>
 								<fg>#FF0000</fg>
 							</object>
 							<flag>wxALL|wxALIGN_RIGHT|wxALIGN_CENTER_VERTICAL</flag>
@@ -384,8 +478,8 @@
 							<option>1</option>
 						</object>
 						<object class="sizeritem">
-							<object class="wxStaticText" name="ID_LBLVALUES14" variable="LblValues14" member="yes">
-								<label>90-180</label>
+							<object class="wxStaticText" name="ID_LBLVALUES20" variable="LblValues20" member="yes">
+								<label>150-200</label>
 								<fg>#FF0000</fg>
 							</object>
 							<flag>wxALL|wxALIGN_RIGHT|wxALIGN_CENTER_VERTICAL</flag>
@@ -393,8 +487,8 @@
 							<option>1</option>
 						</object>
 						<object class="sizeritem">
-							<object class="wxStaticText" name="ID_LBLVALUES15" variable="LblValues15" member="yes">
-								<label>180-240</label>
+							<object class="wxStaticText" name="ID_LBLVALUES21" variable="LblValues21" member="yes">
+								<label>100-200</label>
 								<fg>#FF0000</fg>
 							</object>
 							<flag>wxALL|wxALIGN_RIGHT|wxALIGN_CENTER_VERTICAL</flag>
@@ -402,8 +496,26 @@
 							<option>1</option>
 						</object>
 						<object class="sizeritem">
-							<object class="wxStaticText" name="ID_LBLVALUES16" variable="LblValues16" member="yes">
-								<label>55-110</label>
+							<object class="wxStaticText" name="ID_LBLVALUES22" variable="LblValues22" member="yes">
+								<label>50-75</label>
+								<fg>#FF0000</fg>
+							</object>
+							<flag>wxALL|wxALIGN_RIGHT|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxStaticText" name="ID_LBLVALUES23" variable="LblValues23" member="yes">
+								<label>140-180</label>
+								<fg>#FF0000</fg>
+							</object>
+							<flag>wxALL|wxALIGN_RIGHT|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxStaticText" name="ID_LBLVALUES24" variable="LblValues24" member="yes">
+								<label>12400-15400</label>
 								<fg>#FF0000</fg>
 							</object>
 							<flag>wxALL|wxALIGN_RIGHT|wxALIGN_CENTER_VERTICAL</flag>
@@ -423,8 +535,8 @@
 							<option>1</option>
 						</object>
 						<object class="sizeritem">
-							<object class="wxStaticText" name="ID_LBLVALUES17" variable="LblValues17" member="yes">
-								<label>&gt;400</label>
+							<object class="wxStaticText" name="ID_LBLVALUES25" variable="LblValues25" member="yes">
+								<label>&gt;350</label>
 								<fg>#808080</fg>
 							</object>
 							<flag>wxALL|wxALIGN_RIGHT|wxALIGN_CENTER_VERTICAL</flag>
@@ -432,7 +544,34 @@
 							<option>1</option>
 						</object>
 						<object class="sizeritem">
-							<object class="wxStaticText" name="ID_LBLVALUES18" variable="LblValues18" member="yes">
+							<object class="wxStaticText" name="ID_LBLVALUES26" variable="LblValues26" member="yes">
+								<label>&gt;200</label>
+								<fg>#808080</fg>
+							</object>
+							<flag>wxALL|wxALIGN_RIGHT|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxStaticText" name="ID_LBLVALUES27" variable="LblValues27" member="yes">
+								<label>&gt;200</label>
+								<fg>#808080</fg>
+							</object>
+							<flag>wxALL|wxALIGN_RIGHT|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxStaticText" name="ID_LBLVALUES28" variable="LblValues28" member="yes">
+								<label>&gt;75</label>
+								<fg>#808080</fg>
+							</object>
+							<flag>wxALL|wxALIGN_RIGHT|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxStaticText" name="ID_LBLVALUES29" variable="LblValues29" member="yes">
 								<label>&gt;180</label>
 								<fg>#808080</fg>
 							</object>
@@ -441,17 +580,8 @@
 							<option>1</option>
 						</object>
 						<object class="sizeritem">
-							<object class="wxStaticText" name="ID_LBLVALUES19" variable="LblValues19" member="yes">
-								<label>&gt;240</label>
-								<fg>#808080</fg>
-							</object>
-							<flag>wxALL|wxALIGN_RIGHT|wxALIGN_CENTER_VERTICAL</flag>
-							<border>5</border>
-							<option>1</option>
-						</object>
-						<object class="sizeritem">
-							<object class="wxStaticText" name="ID_LBLVALUES20" variable="LblValues20" member="yes">
-								<label>&gt;110</label>
+							<object class="wxStaticText" name="ID_LBLVALUES30" variable="LblValues30" member="yes">
+								<label>&gt;15400</label>
 								<fg>#808080</fg>
 							</object>
 							<flag>wxALL|wxALIGN_RIGHT|wxALIGN_CENTER_VERTICAL</flag>

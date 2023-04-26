@@ -1,0 +1,9 @@
+The changelog of WinAirq
+
+1.0.1 (2023-04-26): 
+* added new Japanese translation; 
+* updated AQI legend to the latest one at https://openweathermap.org/api/air-pollution; 
+* corrected measurement colouring to properly relate to the AQI table; 
+* fixed system tray status to appear also on the unknown air quality.
+
+1.0 (2022-12-30) — first public release version.

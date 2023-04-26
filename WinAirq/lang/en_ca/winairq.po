@@ -1,14 +1,14 @@
 # WinAirq
-# Copyright (C) 2022 PeCeT_full
+# Copyright (C) 2022-2023 PeCeT_full
 # This file is distributed under the same license as the WinAirq package.
-# PeCeT_full <me@pecetfull.pl>, 2022.
+# PeCeT_full <me@pecetfull.pl>, 2022-2023.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: WinAirq 1.0\n"
+"Project-Id-Version: WinAirq 1.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-18 20:45+0100\n"
-"PO-Revision-Date: 2022-12-18 21:04+0100\n"
+"PO-Revision-Date: 2023-04-24 22:25+0200\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=windows-1252\n"

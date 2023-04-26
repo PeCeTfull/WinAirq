@@ -1,14 +1,14 @@
 # WinAirq
-# Copyright (C) 2022 PeCeT_full
+# Copyright (C) 2022-2023 PeCeT_full
 # This file is distributed under the same license as the WinAirq package.
-# PeCeT_full <me@pecetfull.pl>, 2022.
+# PeCeT_full <me@pecetfull.pl>, 2022-2023.
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-18 20:45+0100\n"
+"POT-Creation-Date: 2023-04-24 21:53+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,21 +32,21 @@ msgstr ""
 msgid "&Update"
 msgstr ""
 
-#: dump/AQILegendDialog.cpp:141
-msgid "(optional)"
-msgstr ""
-
-#: dump/WinAirqMain.cpp:652
+#: dump/WinAirqMain.cpp:664
 msgid ""
 ".\n"
 "Build date: "
 msgstr ""
 
-#: dump/AQILegendDialog.cpp:137 dump/WinAirqMain.cpp:213
+#: dump/AQILegendDialog.cpp:151
+msgid "2.5"
+msgstr ""
+
+#: dump/WinAirqMain.cpp:213
 msgid "2.5 "
 msgstr ""
 
-#: dump/WinAirqMain.cpp:652
+#: dump/WinAirqMain.cpp:664
 msgid ""
 "A current air quality reading program for vintage computers connected to the "
 "Internet\n"
@@ -59,7 +59,7 @@ msgstr ""
 msgid "AQI &legend"
 msgstr ""
 
-#: dump/AQILegendDialog.cpp:70
+#: dump/AQILegendDialog.cpp:84
 msgid "Air quality index - Legend"
 msgstr ""
 
@@ -85,7 +85,7 @@ msgstr ""
 msgid "Change"
 msgstr ""
 
-#: dump/LocationDialog.cpp:289 dump/WinAirqMain.cpp:550
+#: dump/LocationDialog.cpp:275 dump/WinAirqMain.cpp:562
 msgid ""
 "Could not connect to the website. Please check your Internet connection and "
 "try again later."
@@ -99,7 +99,7 @@ msgstr ""
 msgid "Current language: "
 msgstr ""
 
-#: dump/jsonreader.cpp:2132 dump/LocationDialog.cpp:155
+#: dump/jsonreader.cpp:2132 dump/LocationDialog.cpp:141
 msgid "DEC_FRACTION_DOT"
 msgstr ""
 
@@ -111,17 +111,18 @@ msgstr ""
 msgid "E&xit"
 msgstr ""
 
-#: dump/LocationDialog.cpp:279 dump/LocationDialog.cpp:284
-#: dump/LocationDialog.cpp:289 dump/WinAirqApp.cpp:90 dump/WinAirqMain.cpp:532
-#: dump/WinAirqMain.cpp:541 dump/WinAirqMain.cpp:550
+#: dump/LocationDialog.cpp:265 dump/LocationDialog.cpp:270
+#: dump/LocationDialog.cpp:275 dump/WinAirqApp.cpp:90
+#: dump/WinAirqMain.cpp:544 dump/WinAirqMain.cpp:553
+#: dump/WinAirqMain.cpp:562
 msgid "Error"
 msgstr ""
 
-#: dump/AQILegendDialog.cpp:163 dump/WinAirqMain.cpp:474
+#: dump/AQILegendDialog.cpp:195 dump/WinAirqMain.cpp:486
 msgid "Fair"
 msgstr ""
 
-#: dump/AQILegendDialog.cpp:146 dump/WinAirqMain.cpp:466
+#: dump/AQILegendDialog.cpp:172 dump/WinAirqMain.cpp:478
 msgid "Good"
 msgstr ""
 
@@ -129,7 +130,7 @@ msgstr ""
 msgid "Language"
 msgstr ""
 
-#: dump/LocationDialog.cpp:65
+#: dump/LocationDialog.cpp:64
 msgid "Latitude"
 msgstr ""
 
@@ -137,7 +138,7 @@ msgstr ""
 msgid "Location:"
 msgstr ""
 
-#: dump/LocationDialog.cpp:64
+#: dump/LocationDialog.cpp:65
 msgid "Longitude"
 msgstr ""
 
@@ -145,7 +146,7 @@ msgstr ""
 msgid "Message"
 msgstr ""
 
-#: dump/AQILegendDialog.cpp:180 dump/WinAirqMain.cpp:482
+#: dump/AQILegendDialog.cpp:218 dump/WinAirqMain.cpp:494
 msgid "Moderate"
 msgstr ""
 
@@ -153,11 +154,11 @@ msgstr ""
 msgid "OK"
 msgstr ""
 
-#: dump/AQILegendDialog.cpp:82
+#: dump/AQILegendDialog.cpp:96
 msgid "Pollutant concentration in micro-g/m "
 msgstr ""
 
-#: dump/AQILegendDialog.cpp:197 dump/WinAirqMain.cpp:490
+#: dump/AQILegendDialog.cpp:241 dump/WinAirqMain.cpp:502
 msgid "Poor"
 msgstr ""
 
@@ -165,7 +166,7 @@ msgstr ""
 msgid "Program settings"
 msgstr ""
 
-#: dump/AQILegendDialog.cpp:75
+#: dump/AQILegendDialog.cpp:89
 msgid "Qualitative name"
 msgstr ""
 
@@ -177,7 +178,7 @@ msgstr ""
 msgid "Search for location..."
 msgstr ""
 
-#: dump/LocationDialog.cpp:223
+#: dump/LocationDialog.cpp:209
 msgid "Searching, please wait..."
 msgstr ""
 
@@ -197,13 +198,13 @@ msgstr ""
 msgid "State/Province"
 msgstr ""
 
-#: dump/LocationDialog.cpp:296
+#: dump/LocationDialog.cpp:282
 msgid ""
 "The search phrase contains invalid characters, such as ^, ?, &, or =. Please "
 "remove them and try again."
 msgstr ""
 
-#: dump/WinAirqMain.cpp:654
+#: dump/WinAirqMain.cpp:666
 msgid ""
 "This program is published under The MIT License. For more information, "
 "please refer to the Licence.txt file included with the application."
@@ -217,35 +218,36 @@ msgstr ""
 msgid "Translate town names"
 msgstr ""
 
-#: dump/WinAirqMain.cpp:532
+#: dump/WinAirqMain.cpp:544
 msgid ""
 "Unable to read data for the specified location. Please change the location "
 "or try again."
 msgstr ""
 
-#: dump/LocationDialog.cpp:279
+#: dump/LocationDialog.cpp:265
 msgid ""
 "Unable to read data for the specified search phrase. Please change the "
 "location or try again."
 msgstr ""
 
-#: dump/LocationDialog.cpp:284 dump/WinAirqMain.cpp:541
+#: dump/LocationDialog.cpp:270 dump/WinAirqMain.cpp:553
 msgid "Unable to read data. Please try again later."
 msgstr ""
 
-#: dump/WinAirqMain.cpp:349 dump/WinAirqMain.cpp:370 dump/WinAirqMain.cpp:506
+#: dump/WinAirqMain.cpp:349 dump/WinAirqMain.cpp:376 dump/WinAirqMain.cpp:518
+#: dump/WinAirqMain.cpp:571
 msgid "Unknown"
 msgstr ""
 
-#: dump/WinAirqMain.cpp:554
+#: dump/WinAirqMain.cpp:566
 msgid "Unknown (connection error)"
 msgstr ""
 
-#: dump/WinAirqMain.cpp:545
+#: dump/WinAirqMain.cpp:557
 msgid "Unknown (parse error)"
 msgstr ""
 
-#: dump/WinAirqMain.cpp:536
+#: dump/WinAirqMain.cpp:548
 msgid "Unknown (read error)"
 msgstr ""
 
@@ -257,25 +259,26 @@ msgstr ""
 msgid "Update data on program launch"
 msgstr ""
 
-#: dump/AQILegendDialog.cpp:214
+#: dump/AQILegendDialog.cpp:264
 msgid "Very Poor"
 msgstr ""
 
-#: dump/WinAirqMain.cpp:498
+#: dump/WinAirqMain.cpp:510
 msgid "Very poor"
 msgstr ""
 
-#: dump/LocationDialog.cpp:228 dump/LocationDialog.cpp:296
-#: dump/WinAirqMain.cpp:422
+#: dump/LocationDialog.cpp:214 dump/LocationDialog.cpp:282
+#: dump/WinAirqMain.cpp:434
 msgid "Warning"
 msgstr ""
 
-#: dump/WinAirqMain.cpp:134 dump/WinAirqMain.cpp:649
+#: dump/WinAirqMain.cpp:134 dump/WinAirqMain.cpp:661
 msgid "WinAirq"
 msgstr ""
 
-#: dump/WinAirqMain.cpp:468 dump/WinAirqMain.cpp:476 dump/WinAirqMain.cpp:484
-#: dump/WinAirqMain.cpp:492 dump/WinAirqMain.cpp:500 dump/WinAirqMain.cpp:508
+#: dump/WinAirqMain.cpp:480 dump/WinAirqMain.cpp:488 dump/WinAirqMain.cpp:496
+#: dump/WinAirqMain.cpp:504 dump/WinAirqMain.cpp:512 dump/WinAirqMain.cpp:520
+#: dump/WinAirqMain.cpp:571
 msgid "WinAirq - Air quality: "
 msgstr ""
 
@@ -288,17 +291,21 @@ msgid ""
 "The application will terminate now."
 msgstr ""
 
-#: dump/WinAirqMain.cpp:422
+#: dump/WinAirqMain.cpp:434
 msgid ""
 "You have not specified the location. Please go to the settings and specify "
 "your location."
 msgstr ""
 
-#: dump/LocationDialog.cpp:228
+#: dump/LocationDialog.cpp:214
 msgid "You need to enter the desired location in order to proceed."
 msgstr ""
 
-#: dump/WinAirqMain.cpp:653
+#: dump/LocationDialog.cpp:123
+msgid "en"
+msgstr ""
+
+#: dump/WinAirqMain.cpp:665
 msgid "https://www.pecetfull.pl"
 msgstr ""
 
@@ -328,6 +335,10 @@ msgstr ""
 
 #: German
 msgid "German"
+msgstr ""
+
+#: Japanese
+msgid "Japanese"
 msgstr ""
 
 #: Polish

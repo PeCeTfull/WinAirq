@@ -9,46 +9,46 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-18 20:45+0100\n"
 "PO-Revision-Date: 2023-04-24 22:25+0200\n"
-"Language-Team: PeCeT_full <me@pecetfull.pl>\n"
+"Last-Translator: PeCeT_full <me@pecetfull.pl>\n"
+"Language-Team: \n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 2.0.5\n"
-"Last-Translator: PeCeT_full <me@pecetfull.pl>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Language: de\n"
 
 #: dump/WinAirqMain.cpp:265
 msgid "&About..."
-msgstr "&Über..."
+msgstr "概要…(&A)"
 
 #: dump/SettingsDialog.cpp:80
 msgid "&Apply"
-msgstr "Ü&bernehmen"
+msgstr "適用(&A)"
 
 #: dump/WinAirqMain.cpp:260
 msgid "&Settings"
-msgstr "&Einstellungen"
+msgstr "設定(&S)"
 
 #: dump/WinAirqMain.cpp:251 dump/WinAirqMain.cpp:257
 msgid "&Update"
-msgstr "&Aktualisieren"
+msgstr "アップデート(&U)"
 
-#: dump/WinAirqMain.cpp:652
+#: dump/WinAirqMain.cpp:664
 msgid ""
 ".\n"
 "Build date: "
 msgstr ""
 ".\n"
-"Build-Datum: "
+"作成日："
 
 #: dump/AQILegendDialog.cpp:151
 msgid "2.5"
-msgstr "2,5"
+msgstr "2.5"
 
 #: dump/WinAirqMain.cpp:213
 msgid "2.5 "
-msgstr "2,5 "
+msgstr "2.5 "
 
 #: dump/WinAirqMain.cpp:664
 msgid ""
@@ -58,111 +58,109 @@ msgid ""
 "\n"
 "Build info: "
 msgstr ""
-"Ein Programm für altmodische Computer, die mit dem Internet verbunden sind, "
-"zum Lesen\n"
-"der aktuellen Luftqualität aus Daten, die von der API von OpenWeatherMap "
-"verschafft wurden.\n"
+"現在の大気環境の読み取りは、旧年代型のコンピューターをインターネットに繋"
+"ぎ、\n"
+"OpenWeatherMapのAPIデータを読み取っています。\n"
 "\n"
-"Build-Info: "
+"作成情報："
 
 #: dump/WinAirqMain.cpp:263
 msgid "AQI &legend"
-msgstr "AQI-&Legende"
+msgstr "AQIレジェンド(&L)"
 
 #: dump/AQILegendDialog.cpp:84
 msgid "Air quality index - Legend"
-msgstr "Luftqualitätsindex - Legende"
+msgstr "大気質指標 - レジェンド"
 
 #: dump/WinAirqMain.cpp:150
 msgid "Air quality:"
-msgstr "Luftqualität:"
+msgstr "空質："
 
 #: dump/SettingsDialog.cpp:122
 msgid ""
 "Another language has just been selected. To reflect all the changes, please "
 "restart the application."
 msgstr ""
-"Eine andere Sprache hat gerade ausgewählt worden. Um alle Änderungen zu "
-"übernehmen, starten Sie bitte die Anwendung neu."
+"言語設定が変更されました。すべてに反映させるためにアプリの再起動を行なってく"
+"ださい。"
 
 #: dump/wxTranslationHelper.cpp:70
 msgid "Array of language names and identifiers should have the same size."
-msgstr ""
-"Das Array von Sprachennamen und Kennungen sollte die gleiche Größe haben."
+msgstr "言語名と識別子の配列は同じ大きさでなければならない。"
 
 #: dump/SettingsDialog.cpp:78
 msgid "Cancel"
-msgstr "Abbrechen"
+msgstr "キャンセル"
 
 #: dump/SettingsDialog.cpp:71
 msgid "Change"
-msgstr "Ändern"
+msgstr "変更"
 
 #: dump/LocationDialog.cpp:275 dump/WinAirqMain.cpp:562
 msgid ""
 "Could not connect to the website. Please check your Internet connection and "
 "try again later."
 msgstr ""
-"Konnte keine Verbindung zur Webseite herstellen. Bitte überprüfen Sie Ihre "
-"Internetverbindung und versuchen Sie es später erneut."
+"ウェブサイトに接続できません。インターネットの接続状況を確認して再度お試しく"
+"ださい。"
 
 #: dump/LocationDialog.cpp:63
 msgid "Country"
-msgstr "Land"
+msgstr "国"
 
 #: dump/SettingsDialog.cpp:69 dump/SettingsDialog.cpp:108
 msgid "Current language: "
-msgstr "Aktuelle Sprache: "
+msgstr "選択中の言語："
 
 #: dump/jsonreader.cpp:2132 dump/LocationDialog.cpp:141
 msgid "DEC_FRACTION_DOT"
-msgstr "DEC_FRACTION_COMMA"
+msgstr "DEC_FRACTION_DOT"
 
 #: dump/WinAirqMain.cpp:144
 msgid "Date && time:"
-msgstr "Datum und Uhrzeit:"
+msgstr "日付＆時間："
 
 #: dump/WinAirqMain.cpp:268
 msgid "E&xit"
-msgstr "&Beenden"
+msgstr "終了(&X)"
 
 #: dump/LocationDialog.cpp:265 dump/LocationDialog.cpp:270
 #: dump/LocationDialog.cpp:275 dump/WinAirqApp.cpp:90 dump/WinAirqMain.cpp:544
 #: dump/WinAirqMain.cpp:553 dump/WinAirqMain.cpp:562
 msgid "Error"
-msgstr "Fehler"
+msgstr "エラー"
 
 #: dump/AQILegendDialog.cpp:195 dump/WinAirqMain.cpp:486
 msgid "Fair"
-msgstr "Ausreichend"
+msgstr "良い"
 
 #: dump/AQILegendDialog.cpp:172 dump/WinAirqMain.cpp:478
 msgid "Good"
-msgstr "Gut"
+msgstr "非常に良い"
 
 #: dump/wxTranslationHelper.cpp:71
 msgid "Language"
-msgstr "Sprache"
+msgstr "言語"
 
 #: dump/LocationDialog.cpp:64
 msgid "Latitude"
-msgstr "Breitengrad"
+msgstr "緯度"
 
 #: dump/SettingsDialog.cpp:44 dump/WinAirqMain.cpp:139
 msgid "Location:"
-msgstr "Standort:"
+msgstr "位置："
 
 #: dump/LocationDialog.cpp:65
 msgid "Longitude"
-msgstr "Längengrad"
+msgstr "経度"
 
 #: dump/SettingsDialog.cpp:122
 msgid "Message"
-msgstr "Nachricht"
+msgstr "メッセージ"
 
 #: dump/AQILegendDialog.cpp:218 dump/WinAirqMain.cpp:494
 msgid "Moderate"
-msgstr "Mäßig"
+msgstr "中"
 
 #: dump/SettingsDialog.cpp:75 dump/WinAirqMain.cpp:248
 msgid "OK"
@@ -170,130 +168,129 @@ msgstr "OK"
 
 #: dump/AQILegendDialog.cpp:96
 msgid "Pollutant concentration in micro-g/m "
-msgstr "Schadstoffkonzentration in Mikro-g/m "
+msgstr "汚染物質濃度(μg/m³)"
 
 #: dump/AQILegendDialog.cpp:241 dump/WinAirqMain.cpp:502
 msgid "Poor"
-msgstr "Schlecht"
+msgstr "悪い"
 
 #: dump/SettingsDialog.cpp:39
 msgid "Program settings"
-msgstr "Programmeinstellungen"
+msgstr "プログラムの設定"
 
 #: dump/AQILegendDialog.cpp:89
 msgid "Qualitative name"
-msgstr "Qualitativer Name"
+msgstr "質の名称"
 
 #: dump/LocationDialog.cpp:41
 msgid "Search"
-msgstr "Suchen"
+msgstr "検索"
 
 #: dump/LocationDialog.cpp:32
 msgid "Search for location..."
-msgstr "Suche nach Standort..."
+msgstr "位置情報の検索…"
 
 #: dump/LocationDialog.cpp:209
 msgid "Searching, please wait..."
-msgstr "Suche, bitte warten..."
+msgstr "検索中です。しばらくお待ちください…"
 
 #: dump/wxTranslationHelper.cpp:71
 msgid "Select your language."
-msgstr "Wählen Sie Ihre Sprache aus."
+msgstr "言語を設定してください。"
 
 #: dump/WinAirqMain.cpp:255
 msgid "Show &details"
-msgstr "&Details anzeigen"
+msgstr "詳細を見る(&D)"
 
 #: dump/SettingsDialog.cpp:55
 msgid "Show main window on program launch"
-msgstr "Hauptfenster beim Programmstart anzeigen"
+msgstr "プログラム起動時にメインウインドウを表示する"
 
 #: dump/LocationDialog.cpp:62
 msgid "State/Province"
-msgstr "Bundesstaat/Provinz"
+msgstr "県/州"
 
 #: dump/LocationDialog.cpp:282
 msgid ""
 "The search phrase contains invalid characters, such as ^, ?, &, or =. Please "
 "remove them and try again."
 msgstr ""
-"Der Suchbegriff enthält ungültige Zeichen wie ^, ?, &, oder =. Bitte "
-"entfernen Sie ihnen und versuchen Sie es erneut."
+"^、?、&、=などの記号が入っていると検索が無効となります。それらを避けたうえで"
+"再度検索を行なってください。"
 
 #: dump/WinAirqMain.cpp:666
 msgid ""
 "This program is published under The MIT License. For more information, "
 "please refer to the Licence.txt file included with the application."
 msgstr ""
-"Dieses Programm steht unter der MIT-Lizenz. Weitere Angaben hierzu finden "
-"Sie unter Licence.txt-Datei in der Anwendung enthalten."
+"本プログラムはMITライセンスに則り公開されています。詳細情報は、\n"
+"アプリ内のLicence.txtファイルをご参照ください。"
 
 #: dump/LocationDialog.cpp:61
 msgid "Town"
-msgstr "Ort"
+msgstr "市町村"
 
 #: dump/LocationDialog.cpp:44
 msgid "Translate town names"
-msgstr "Ortsnamen übersetzen"
+msgstr "市町村名を翻訳する"
 
 #: dump/WinAirqMain.cpp:544
 msgid ""
 "Unable to read data for the specified location. Please change the location "
 "or try again."
 msgstr ""
-"Die Daten für den angegebenen Standort können nicht gelesen werden. Bitte "
-"ändern Sie den Standort oder versuchen Sie es erneut."
+"指定された位置情報を読み取ることができません。位置情報を変更した上で再度お試"
+"しください。"
 
 #: dump/LocationDialog.cpp:265
 msgid ""
 "Unable to read data for the specified search phrase. Please change the "
 "location or try again."
 msgstr ""
-"Die Daten für den angegebenen Suchbegriff können nicht gelesen werden. Bitte "
-"ändern Sie den Standort oder versuchen Sie es erneut."
+"入力された検索ワードに該当するものがありません。位置情報を変更するか、再度検"
+"索を行なってください。"
 
 #: dump/LocationDialog.cpp:270 dump/WinAirqMain.cpp:553
 msgid "Unable to read data. Please try again later."
-msgstr ""
-"Die Daten können nicht gelesen werden. Bitte versuchen Sie es später erneut."
+msgstr "データが読み取れません。再度お試しください。"
 
 #: dump/WinAirqMain.cpp:349 dump/WinAirqMain.cpp:376 dump/WinAirqMain.cpp:518
 #: dump/WinAirqMain.cpp:571
 msgid "Unknown"
-msgstr "Unbekannt"
+msgstr "不明"
 
 #: dump/WinAirqMain.cpp:566
 msgid "Unknown (connection error)"
-msgstr "Unbekannt (Verbindungsfehler)"
+msgstr "不明（接続エラー）"
 
 #: dump/WinAirqMain.cpp:557
 msgid "Unknown (parse error)"
-msgstr "Unbekannt (Parse-Fehler)"
+msgstr "不明（分析エラー）"
 
 #: dump/WinAirqMain.cpp:548
 msgid "Unknown (read error)"
-msgstr "Unbekannt (Lesefehler)"
+msgstr "不明（読み込みエラー）"
 
 #: dump/SettingsDialog.cpp:61
 msgid "Update data every 15 minutes"
-msgstr "Daten alle 15 Minuten aktualisieren"
+msgstr "データの更新は15分おきに行なわれます"
 
 #: dump/SettingsDialog.cpp:58
 msgid "Update data on program launch"
-msgstr "Daten beim Programmstart aktualisieren"
+msgstr "起動時にデータをアップデートします"
 
 #: dump/AQILegendDialog.cpp:264
 msgid "Very Poor"
-msgstr "Sehr schlecht"
+msgstr "非常に悪い"
 
 #: dump/WinAirqMain.cpp:510
 msgid "Very poor"
-msgstr "Sehr schlecht"
+msgstr "非常に悪い"
 
 #: dump/LocationDialog.cpp:214 dump/LocationDialog.cpp:282
 #: dump/WinAirqMain.cpp:434
 msgid "Warning"
-msgstr "Warnung"
+msgstr "警告"
 
 #: dump/WinAirqMain.cpp:134 dump/WinAirqMain.cpp:661
 msgid "WinAirq"
@@ -303,7 +300,7 @@ msgstr "WinAirq"
 #: dump/WinAirqMain.cpp:504 dump/WinAirqMain.cpp:512 dump/WinAirqMain.cpp:520
 #: dump/WinAirqMain.cpp:571
 msgid "WinAirq - Air quality: "
-msgstr "WinAirq - Luftqualität: "
+msgstr "WinAirq - 空質："
 
 #: dump/WinAirqApp.cpp:90
 msgid ""
@@ -313,128 +310,125 @@ msgid ""
 "\n"
 "The application will terminate now."
 msgstr ""
-"Sie verwenden eine Version von WinAirq mit einem ungültigen API-Schlüssel "
-"für OpenWeatherMap-Dienste. Bitte kontaktieren Sie Ihren Softwareanbieter "
-"und fragen Sie nach einem gültigen Build.\n"
+"OpenWeatherMapのAPIサービスが使用できないWinAirqのバージョンが使用されていま"
+"す。ソフトウェアの開発者に問い合わせ、有効なビルドを入手してください。\n"
 "\n"
-"Die Anwendung wird jetzt beendet."
+"アプリケーションは終了されます。"
 
 #: dump/WinAirqMain.cpp:434
 msgid ""
 "You have not specified the location. Please go to the settings and specify "
 "your location."
-msgstr ""
-"Sie haben keinen Standort angegeben. Bitte gehen Sie in die Einstellungen "
-"und geben Sie Ihren Standort an."
+msgstr "位置情報が特定されていません。設定から位置情報を入力してください。"
 
 #: dump/LocationDialog.cpp:214
 msgid "You need to enter the desired location in order to proceed."
-msgstr "Sie müssen den gewünschten Standort eingeben, um fortzufahren."
+msgstr "引き続き操作するには、測定する位置情報を入力してください。"
 
 #: dump/LocationDialog.cpp:123
 msgid "en"
-msgstr "de"
+msgstr "ja"
 
 #: dump/WinAirqMain.cpp:665
 msgid "https://www.pecetfull.pl"
-msgstr "http://www.pecetfull.pl/de"
+msgstr "https://www.pecetfull.pl"
 
 #: OK (with hotkey)
 msgid "&OK"
-msgstr "&OK"
+msgstr "OK"
 
 #: Cancel (with hotkey)
 msgid "&Cancel"
-msgstr "&Abbrechen"
+msgstr "キャンセル"
 
 #: About
 msgid "About "
-msgstr "Über "
+msgstr "概要："
 
 #: License
 msgid "License"
-msgstr "Lizenz"
+msgstr "ライセンス"
 
 #: English
 msgid "English"
-msgstr "Englisch"
+msgstr "英語"
 
 #: English (Canada)
 msgid "English (Canada)"
-msgstr "Englisch (Kanada)"
+msgstr "英語 (カナダ)"
 
 #: German
 msgid "German"
-msgstr "Deutsch"
+msgstr "ドイツ語"
 
 #: Japanese
 msgid "Japanese"
-msgstr "Japanisch"
+msgstr "日本語"
 
 #: Polish
 msgid "Polish"
-msgstr "Polnisch"
+msgstr "ポーランド語"
 
 #: Greater Poland Voivodeship
 msgid "Greater Poland Voivodeship"
-msgstr "Woiwodschaft Großpolen"
+msgstr "ヴィエルコポルスカ県"
 
 #: Lesser Poland Voivodeship
 msgid "Lesser Poland Voivodeship"
-msgstr "Woiwodschaft Kleinpolen"
+msgstr "マウォポルスカ県"
 
 #: Lower Silesian Voivodeship
 msgid "Lower Silesian Voivodeship"
-msgstr "Woiwodschaft Niederschlesien"
+msgstr "ドルヌィ・シロンスク県"
 
 #: Lublin Voivodeship
 msgid "Lublin Voivodeship"
-msgstr "Woiwodschaft Lublin"
+msgstr "ルブリン県"
 
 #: Lubusz Voivodeship
 msgid "Lubusz Voivodeship"
-msgstr "Woiwodschaft Lebus"
+msgstr "ルブシュ県"
 
 #: Łódź Voivodeship
 msgid "Łódź Voivodeship"
-msgstr "Woiwodschaft Łódź"
+msgstr "ウッチ県"
 
 #: Kuyavian-Pomeranian Voivodeship
 msgid "Kuyavian-Pomeranian Voivodeship"
-msgstr "Woiwodschaft Kujawien-Pommern"
+msgstr "クヤヴィ＝ポモージェ県"
 
 #: Masovian Voivodeship
 msgid "Masovian Voivodeship"
-msgstr "Woiwodschaft Masowien"
+msgstr "マゾフシェ県"
 
 #: Opole Voivodeship
 msgid "Opole Voivodeship"
-msgstr "Woiwodschaft Opole"
+msgstr "オポーレ県"
 
 #: Podlaskie Voivodeship
 msgid "Podlaskie Voivodeship"
-msgstr "Woiwodschaft Podlachien"
+msgstr "ポドラシェ県"
 
 #: Pomeranian Voivodeship
 msgid "Pomeranian Voivodeship"
-msgstr "Woiwodschaft Pommern"
+msgstr "ポモージェ県"
 
 #: Silesian Voivodeship
 msgid "Silesian Voivodeship"
-msgstr "Woiwodschaft Schlesien"
+msgstr "シロンスク県"
 
 #: Subcarpathian Voivodeship
 msgid "Subcarpathian Voivodeship"
-msgstr "Woiwodschaft Karpatenvorland"
+msgstr "ポトカルパチェ県"
 
 #: Świętokrzyskie Voivodeship
 msgid "Świętokrzyskie Voivodeship"
-msgstr "Woiwodschaft Heiligkreuz"
+msgstr "シフィェンティクシシュ県"
 
 #: Warmian-Masurian Voivodeship
 msgid "Warmian-Masurian Voivodeship"
-msgstr "Woiwodschaft Ermland-Masuren"
+msgstr "ヴァルミア＝マズールィ県"
 
 #: West Pomeranian Voivodeship
 msgid "West Pomeranian Voivodeship"
-msgstr "Woiwodschaft Westpommern"
+msgstr "西ポモージェ県"

@@ -355,8 +355,14 @@ void WinAirqDialog::UpdateMeasureParameter(wxJSONValue &jsonRoot, wxString param
 void WinAirqDialog::SetColourForParameter(wxStaticText* parameterValLabel, wxStaticText* parameterLabelPart1, wxStaticText* parameterLabelPart2, wxStaticText* parameterLabelPart3, wxString colour)
 {
     parameterLabelPart1->SetForegroundColour(wxColour(colour));
-    parameterLabelPart2->SetForegroundColour(wxColour(colour));
-    parameterLabelPart3->SetForegroundColour(wxColour(colour));
+    if (parameterLabelPart2 != NULL)
+    {
+        parameterLabelPart2->SetForegroundColour(wxColour(colour));
+    }
+    if (parameterLabelPart3 != NULL)
+    {
+        parameterLabelPart3->SetForegroundColour(wxColour(colour));
+    }
     parameterValLabel->SetForegroundColour(wxColour(colour));
 }
 
@@ -377,19 +383,19 @@ void WinAirqDialog::UpdateMeasureParameter(wxJSONValue &jsonRoot, wxString param
         long parameterValLong;
         parameterVal.ToLong(&parameterValLong);
 
-        if (parameterValLong > fourthThresholdHit + parameterVal.Contains(wxT(".")))
+        if (parameterValLong >= fourthThresholdHit)
         {
             SetColourForParameter(parameterValLabel, parameterLabelPart1, parameterLabelPart2, parameterLabelPart3, wxT(GREY_STATUS_COLOUR));
         }
-        else if (parameterValLong > thirdThresholdHit + parameterVal.Contains(wxT(".")))
+        else if (parameterValLong >= thirdThresholdHit)
         {
             SetColourForParameter(parameterValLabel, parameterLabelPart1, parameterLabelPart2, parameterLabelPart3, wxT(RED_STATUS_COLOUR));
         }
-        else if (parameterValLong > secondThresholdHit + parameterVal.Contains(wxT(".")))
+        else if (parameterValLong >= secondThresholdHit)
         {
             SetColourForParameter(parameterValLabel, parameterLabelPart1, parameterLabelPart2, parameterLabelPart3, wxT(YELLOW_STATUS_COLOUR));
         }
-        else if (parameterValLong > firstThresholdHit + parameterVal.Contains(wxT(".")))
+        else if (parameterValLong >= firstThresholdHit)
         {
             SetColourForParameter(parameterValLabel, parameterLabelPart1, parameterLabelPart2, parameterLabelPart3, wxT(BLUE_STATUS_COLOUR));
         }
@@ -403,8 +409,14 @@ void WinAirqDialog::UpdateMeasureParameter(wxJSONValue &jsonRoot, wxString param
 
     parameterValLabel->SetLabel(parameterVal);
     parameterLabelPart1->SetFont(newParameterFont);
-    parameterLabelPart2->SetFont(newParameterFont);
-    parameterLabelPart3->SetFont(newParameterFont);
+    if (parameterLabelPart2 != NULL)
+    {
+        parameterLabelPart2->SetFont(newParameterFont);
+    }
+    if (parameterLabelPart3 != NULL)
+    {
+        parameterLabelPart3->SetFont(newParameterFont);
+    }
     parameterValLabel->SetFont(newParameterFont);
 }
 
@@ -516,13 +528,13 @@ void WinAirqDialog::UpdateAllDetails(wxInputStream *airPollutionInputStream, boo
                 LblAirQuality->SetForegroundColour(wxColour(newFontColour));
                 LblAirQualityVal->SetForegroundColour(wxColour(newFontColour));
 
-                UpdateMeasureParameter(jsonRoot, wxT("co"), LblCOVal);
+                UpdateMeasureParameter(jsonRoot, wxT("co"), LblCOVal, LblCO, NULL, NULL, 4400, 9400, 12400, 15400);
                 UpdateMeasureParameter(jsonRoot, wxT("no"), LblNOVal);
-                UpdateMeasureParameter(jsonRoot, wxT("no2"), LblNO2Val, LblNO2_1, LblNO2_2, LblNO2_3, 50, 100, 200, 400);
-                UpdateMeasureParameter(jsonRoot, wxT("o3"), LblO3Val, LblO3_1, LblO3_2, LblO3_3, 60, 120, 180, 240);
-                UpdateMeasureParameter(jsonRoot, wxT("so2"), LblSO2Val);
-                UpdateMeasureParameter(jsonRoot, wxT("pm2_5"), LblPM25Val, LblPM25_1, LblPM25_2, LblPM25_3, 15, 30, 55, 110);
-                UpdateMeasureParameter(jsonRoot, wxT("pm10"), LblPM10Val, LblPM10_1, LblPM10_2, LblPM10_3, 25, 50, 90, 180);
+                UpdateMeasureParameter(jsonRoot, wxT("no2"), LblNO2Val, LblNO2_1, LblNO2_2, LblNO2_3, 40, 70, 150, 200);
+                UpdateMeasureParameter(jsonRoot, wxT("o3"), LblO3Val, LblO3_1, LblO3_2, LblO3_3, 60, 100, 140, 180);
+                UpdateMeasureParameter(jsonRoot, wxT("so2"), LblSO2Val, LblSO2_1, LblSO2_2, LblSO2_3, 20, 80, 250, 350);
+                UpdateMeasureParameter(jsonRoot, wxT("pm2_5"), LblPM25Val, LblPM25_1, LblPM25_2, LblPM25_3, 10, 25, 50, 75);
+                UpdateMeasureParameter(jsonRoot, wxT("pm10"), LblPM10Val, LblPM10_1, LblPM10_2, LblPM10_3, 20, 50, 100, 200);
                 UpdateMeasureParameter(jsonRoot, wxT("nh3"), LblNH3Val);
 
                 Refresh();
@@ -556,7 +568,7 @@ void WinAirqDialog::UpdateAllDetails(wxInputStream *airPollutionInputStream, boo
 
     if (!unknownAirQualityReason.IsEmpty())
     {
-        taskbarIcon->SetIcon(wxIcon(wxT(UNKNOWN_QUALITY_ICON_NAME)));
+        taskbarIcon->SetIcon(wxIcon(wxT(UNKNOWN_QUALITY_ICON_NAME)), wxString::Format(wxT("%s%s"), _("WinAirq - Air quality: "), _("Unknown")));
 
         LblAirQualityVal->SetLabel(unknownAirQualityReason);
 
@@ -647,8 +659,8 @@ void WinAirqDialog::OnAbout(wxCommandEvent& event)
     wxAboutDialogInfo info;
     info.SetIcon(wxIcon(wxT(ICON_NAME)));
     info.SetName(_("WinAirq"));
-    info.SetVersion(wxT("1.0"));
-    info.SetCopyright(wxT("Copyright (C) PeCeT_full 2022 <me@pecetfull.pl>"));
+    info.SetVersion(wxT("1.0.1"));
+    info.SetCopyright(wxT("Copyright (C) PeCeT_full 2022-2023 <me@pecetfull.pl>"));
     info.SetDescription(_("A current air quality reading program for vintage computers connected to the Internet\nfrom the data retrieved from OpenWeatherMap's API.\n\nBuild info: ") + wxBuildInfo(long_f) + _(".\nBuild date: ") +  __TDATE__ + wxT(", ") __TTIME__ + '.');
     info.SetWebSite(_("https://www.pecetfull.pl"));
     info.SetLicence(_("This program is published under The MIT License. For more information, please refer to the Licence.txt file included with the application."));

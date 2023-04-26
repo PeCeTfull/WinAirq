@@ -118,23 +118,9 @@ wxString LocationDialog::GetLocationParameterValue(wxJSONValue &jsonValue, int i
     return valueStr;
 }
 
-wxString LocationDialog::GetISO3166CountryCode()
-{
-    switch (wxGetApp().languageID)
-    {
-        case wxLANGUAGE_GERMAN:
-            return wxT("de");
-        case wxLANGUAGE_POLISH:
-            return wxT("pl");
-        case wxLANGUAGE_ENGLISH_CANADA:
-        default:
-            return wxT("en");
-    }
-}
-
 wxString LocationDialog::GetTranslatedTownName(wxJSONValue &jsonValue, int i)
 {
-    wxString countryCode = GetISO3166CountryCode();
+    wxString countryCode = _("en");
     wxString valueStr = jsonValue[wxT("results")][i][wxT("local_names")][countryCode].AsString();
 
     if (valueStr == wxT("null"))

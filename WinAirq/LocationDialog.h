@@ -41,7 +41,6 @@ class LocationDialog: public wxDialog
 	private:
 
         wxString GetLocationParameterValue(wxJSONValue &jsonValue, int i, wxString parameter);
-        wxString GetISO3166CountryCode();
         wxString GetTranslatedTownName(wxJSONValue &jsonValue, int i);
         wxString ParsePhraseForURL(wxString phrase);
         wxString GetCoordinatesSeparatorBasedOnProgramLocale();

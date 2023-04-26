@@ -1,9 +1,9 @@
 **** Read Me - English ****
 
-WinAirq 1.0
+WinAirq 1.0.1
 Author: PeCeT_full
 Website: http://www.pecetfull.pl
-Copyright (c) by PeCeT_full 2022. WinAirq is published under The MIT License. For more information, please refer to Licence.txt included with the application.
+Copyright (c) by PeCeT_full 2022-2023. WinAirq is published under The MIT License. For more information, please refer to Licence.txt included with the application.
 
 If there are any problems or doubts, please contact me.
 
@@ -52,21 +52,21 @@ Besides basic air quality index (AQI), you can find data about polluting gases, 
                       
 Here is a description of AQI levels: 
 
-+------------------+------------------------------------------------+
-|                  |                                     3          |
-|                  | Pollutant concentration in micro-g/m           |
-|                  |                                                |
-| Qualitative name |---------+---------+---------+------------------+
-|                  |         |         |         |                  |
-|                  | NO      | PM      | O       | PM    (optional) |
-|                  |   2     |   10    |  3      |   2.5            |
-+------------------+---------+---------+---------+------------------+
-| Good             | 0-50    | 0-25    | 0-60    | 0-15             |
-| Fair             | 50-100  | 25-50   | 60-120  | 15-30            |
-| Moderate         | 100-200 | 50-90   | 120-180 | 30-55            |
-| Poor             | 200-400 | 90-180  | 180-240 | 55-110           |
-| Very Poor        | >400    | >180    | >240    | >110             |
-+------------------+---------+---------+---------+------------------+
++------------------+-------------------------------------------------------------+
+|                  |                                     3                       |
+|                  | Pollutant concentration in micro-g/m                        |
+|                  |                                                             |
+| Qualitative name |---------+---------+---------+-----------------+-------------+
+|                  |         |         |         |       |         |             |
+|                  | SO      | NO      | PM      | PM    | O       | CO          |
+|                  |   2     |   2     |   10    |   2.5 |  3      |             |
++------------------+---------+---------+---------+-------+---------+-------------+
+| Good             | 0-20    | 0-40    | 0-20    | 0-10  | 0-60    | 0-4400      |
+| Fair             | 20-80   | 40-70   | 20-50   | 10-25 | 60-100  | 4400-9400   |
+| Moderate         | 80-250  | 70-150  | 50-100  | 25-50 | 100-140 | 9400-12400  |
+| Poor             | 250-350 | 150-200 | 100-200 | 50-75 | 140-180 | 12400-15400 |
+| Very Poor        | >350    | >200    | >200    | >75   | >180    | >15400      |
++------------------+---------+---------+---------+-------+---------+-------------+
 
 The legend is also available from WinAirq's context menu and can be used for direct reference.
 

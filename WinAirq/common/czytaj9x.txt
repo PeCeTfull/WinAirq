@@ -1,9 +1,9 @@
 **** Czytaj to - Polski, CE ****
 
-WinAirq 1.0
+WinAirq 1.0.1
 Autor: PeCeT_full
 Strona WWW: http://www.pecetfull.pl/pl
-Copyright © by PeCeT_full 2022. Program WinAirq jest publikowany na zasadach licencji MIT. Wiêcej informacji mo¿na uzyskaæ zapoznaj¹c siê z plikiem Licence.txt do³¹czonym do aplikacji (polskie t³umaczenie licencji MIT: http://blaszyk-jarosinski.pl/wp-content/uploads/2008/05/licencja-mit-tlumaczenie.pdf).
+Copyright © by PeCeT_full 2022-2023. Program WinAirq jest publikowany na zasadach licencji MIT. Wiêcej informacji mo¿na uzyskaæ zapoznaj¹c siê z plikiem Licence.txt do³¹czonym do aplikacji (polskie t³umaczenie licencji MIT: http://blaszyk-jarosinski.pl/wp-content/uploads/2008/05/licencja-mit-tlumaczenie.pdf).
 
 W razie wszelkich problemów czy te¿ w¹tpliwoœci proszê o kontakt.
 
@@ -52,21 +52,21 @@ Oprócz podstawowego indeksu jakoœci powietrza (AQI, ang. Air Quality Index) mo¿n
                       
 Oto opis poziomów AQI: 
 
-+------------------+--------------------------------------------------+
-|                  |                                      3           |
-|                  | Stê¿enie zanieczyszczenia w mikro-g/m            |
-|                  |                                                  |
-| Nazwa jakoœciowa |---------+---------+---------+--------------------+
-|                  |         |         |         |                    |
-|                  | NO      | PM      | O       | PM    (opcjonalne) |
-|                  |   2     |   10    |  3      |   2,5              |
-+------------------+---------+---------+---------+--------------------+
-| Dobra            | 0-50    | 0-25    | 0-60    | 0-15               |
-| Dostateczna      | 50-100  | 25-50   | 60-120  | 15-30              |
-| Umiarkowana      | 100-200 | 50-90   | 120-180 | 30-55              |
-| Niska            | 200-400 | 90-180  | 180-240 | 55-110             |
-| Bardzo niska     | >400    | >180    | >240    | >110               |
-+------------------+---------+---------+---------+--------------------+
++------------------+-------------------------------------------------------------+
+|                  |                                      3                      |
+|                  | Stê¿enie zanieczyszczenia w mikro-g/m                       |
+|                  |                                                             |
+| Nazwa jakoœciowa |---------+---------+---------+-----------------+-------------+
+|                  |         |         |         |       |         |             |
+|                  | SO      | NO      | PM      | PM    | O       | CO          |
+|                  |   2     |   2     |   10    |   2.5 |  3      |             |
++------------------+---------+---------+---------+-------+---------+-------------+
+| Dobra            | 0-20    | 0-40    | 0-20    | 0-10  | 0-60    | 0-4400      |
+| Dostateczna      | 20-80   | 40-70   | 20-50   | 10-25 | 60-100  | 4400-9400   |
+| Umiarkowana      | 80-250  | 70-150  | 50-100  | 25-50 | 100-140 | 9400-12400  |
+| Niska            | 250-350 | 150-200 | 100-200 | 50-75 | 140-180 | 12400-15400 |
+| Bardzo niska     | >350    | >200    | >200    | >75   | >180    | >15400      |
++------------------+---------+---------+---------+-------+---------+-------------+
 
 Legenda jest równie¿ dostêpna z menu kontekstowego WinAirq i mo¿e byæ u¿ywana do bezpoœrednich porównañ.
 
@@ -74,7 +74,7 @@ Legenda jest równie¿ dostêpna z menu kontekstowego WinAirq i mo¿e byæ u¿ywana do
 Ustawienia programu
 -------------------
 
-Mo¿na dostosowThe following options can be adjusted: 
+Mo¿na dostosowaæ nastêpuj¹ce opcje: 
 
 * po³o¿enie, 
 
