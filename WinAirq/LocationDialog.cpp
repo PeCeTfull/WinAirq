@@ -110,10 +110,6 @@ wxString LocationDialog::GetLocationParameterValue(wxJSONValue &jsonValue, int i
     {
         valueStr = wxT('-');
     }
-    else if (parameter == wxT("state") && valueStr.Contains(wxT("Voivodeship")))
-    {
-        valueStr = wxGetTranslation(valueStr);
-    }
 
     return valueStr;
 }
@@ -126,6 +122,36 @@ wxString LocationDialog::GetTranslatedTownName(wxJSONValue &jsonValue, int i)
     if (valueStr == wxT("null"))
     {
         valueStr = GetLocationParameterValue(jsonValue, i, wxT("name"));
+    }
+
+    return valueStr;
+}
+
+wxString LocationDialog::GetTownName(wxJSONValue &jsonValue, int i)
+{
+    wxString valueStr;
+
+    if (ChkTranslateTownNames->IsChecked())
+    {
+        valueStr = GetTranslatedTownName(jsonValue, i);
+    }
+    else
+    {
+        valueStr = GetLocationParameterValue(jsonValue, i, wxT("name"));
+    }
+
+    return valueStr;
+}
+
+wxString LocationDialog::GetTownState(wxJSONValue &jsonValue, int i, wxString country)
+{
+    wxString valueStr = GetLocationParameterValue(jsonValue, i, wxT("state"));
+
+    if (country == wxT("PL")
+        || country == wxT("CZ")
+        || country == wxT("AT"))
+    {
+        valueStr = wxGetTranslation(valueStr);
     }
 
     return valueStr;
@@ -241,19 +267,13 @@ void LocationDialog::HandleSearch()
 
                         for (int i = 0; i < jsonRoot[wxT("results")].Size(); i++)
                         {
-                            wxString townName;
-                            if (ChkTranslateTownNames->IsChecked())
-                            {
-                                townName = GetTranslatedTownName(jsonRoot, i);
-                            }
-                            else
-                            {
-                                townName = GetLocationParameterValue(jsonRoot, i, wxT("name"));
-                            }
+                            wxString townName = GetTownName(jsonRoot, i);
+                            wxString townCountry = GetLocationParameterValue(jsonRoot, i, wxT("country"));
+                            wxString townState = GetTownState(jsonRoot, i, townCountry);
 
                             long locationItem = LtcLocations->InsertItem(i, townName);
-                            LtcLocations->SetItem(locationItem, 1, GetLocationParameterValue(jsonRoot, i, wxT("state")));
-                            LtcLocations->SetItem(locationItem, 2, GetLocationParameterValue(jsonRoot, i, wxT("country")));
+                            LtcLocations->SetItem(locationItem, 1, townState);
+                            LtcLocations->SetItem(locationItem, 2, townCountry);
                             LtcLocations->SetItem(locationItem, 3, GetLocationParameterValue(jsonRoot, i, wxT("lat")));
                             LtcLocations->SetItem(locationItem, 4, GetLocationParameterValue(jsonRoot, i, wxT("lon")));
                         }

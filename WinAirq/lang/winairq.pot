@@ -408,3 +408,67 @@ msgstr ""
 #: West Pomeranian Voivodeship
 msgid "West Pomeranian Voivodeship"
 msgstr ""
+
+#: Central Bohemia
+msgid "Central Bohemia"
+msgstr ""
+
+#: Central Moravia
+msgid "Central Moravia"
+msgstr ""
+
+#: Moravia-Silesia
+msgid "Moravia-Silesia"
+msgstr ""
+
+#: Northeast
+msgid "Northeast"
+msgstr ""
+
+#: Northwest
+msgid "Northwest"
+msgstr ""
+
+#: Prague
+msgid "Prague"
+msgstr ""
+
+#: Southeast
+msgid "Southeast"
+msgstr ""
+
+#: Southwest
+msgid "Southwest"
+msgstr ""
+
+#: Burgenland
+msgid "Burgenland"
+msgstr ""
+
+#: Carinthia
+msgid "Carinthia"
+msgstr ""
+
+#: Lower Austria
+msgid "Lower Austria"
+msgstr ""
+
+#: Salzburg
+msgid "Salzburg"
+msgstr ""
+
+#: Styria
+msgid "Styria"
+msgstr ""
+
+#: Tyrol
+msgid "Tyrol"
+msgstr ""
+
+#: Upper Austria
+msgid "Upper Austria"
+msgstr ""
+
+#: Vorarlberg
+msgid "Vorarlberg"
+msgstr ""

@@ -5,7 +5,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: WinAirq 1.0.1\n"
+"Project-Id-Version: WinAirq 1.0.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-18 20:45+0100\n"
 "PO-Revision-Date: 2023-04-24 22:25+0200\n"
@@ -358,6 +358,10 @@ msgstr "O programie "
 msgid "License"
 msgstr "Licencja"
 
+#: Czech
+msgid "Czech"
+msgstr "Czeski"
+
 #: English
 msgid "English"
 msgstr "Angielski"
@@ -441,3 +445,67 @@ msgstr "woj. warmińsko-mazurskie"
 #: West Pomeranian Voivodeship
 msgid "West Pomeranian Voivodeship"
 msgstr "woj. zachodniopomorskie"
+
+#: Central Bohemia
+msgid "Central Bohemia"
+msgstr "Czechy Środkowe"
+
+#: Central Moravia
+msgid "Central Moravia"
+msgstr "Morawy Centralne"
+
+#: Moravia-Silesia
+msgid "Moravia-Silesia"
+msgstr "Śląsk Morawski"
+
+#: Northeast
+msgid "Northeast"
+msgstr "region północno-wschodni"
+
+#: Northwest
+msgid "Northwest"
+msgstr "region północno-zachodni"
+
+#: Prague
+msgid "Prague"
+msgstr "Praga"
+
+#: Southeast
+msgid "Southeast"
+msgstr "region południowo-wschodni"
+
+#: Southwest
+msgid "Southwest"
+msgstr "region południowo-zachodni"
+
+#: Burgenland
+msgid "Burgenland"
+msgstr "Burgenland"
+
+#: Carinthia
+msgid "Carinthia"
+msgstr "Karyntia"
+
+#: Lower Austria
+msgid "Lower Austria"
+msgstr "Dolna Austria"
+
+#: Salzburg
+msgid "Salzburg"
+msgstr "Salzburg"
+
+#: Styria
+msgid "Styria"
+msgstr "Styria"
+
+#: Tyrol
+msgid "Tyrol"
+msgstr "Tyrol"
+
+#: Upper Austria
+msgid "Upper Austria"
+msgstr "Górna Austria"
+
+#: Vorarlberg
+msgid "Vorarlberg"
+msgstr "Vorarlberg"

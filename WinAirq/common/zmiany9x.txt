@@ -1,5 +1,10 @@
 Spis zmian programu WinAirq
 
+1.0.2 (30.XI.2023): 
+* poprawiono okno szczegó³ów, aby po uprzednim ukryciu w³aœciwie pokazywa³ siê na ekranie nad innymi oknami; 
+* dodano nowe czeskie t³umaczenie; 
+* obs³u¿ono lokalizacjê jêzykow¹ regionów Czech oraz Austrii.
+
 1.0.1 (26.IV.2023): 
 * dodano nowe japoñskie t³umaczenie; 
 * zaktualizowano legendê AQI do najnowszej na stronie https://openweathermap.org/api/air-pollution; 

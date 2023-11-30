@@ -616,6 +616,7 @@ void WinAirqDialog::OnTaskbarMenuRightClick(wxCommandEvent& event)
 void WinAirqDialog::OnDetails(wxCommandEvent& event)
 {
     Show();
+    Raise();
     SetFocus();
 }
 
@@ -659,7 +660,7 @@ void WinAirqDialog::OnAbout(wxCommandEvent& event)
     wxAboutDialogInfo info;
     info.SetIcon(wxIcon(wxT(ICON_NAME)));
     info.SetName(_("WinAirq"));
-    info.SetVersion(wxT("1.0.1"));
+    info.SetVersion(wxT("1.0.2"));
     info.SetCopyright(wxT("Copyright (C) PeCeT_full 2022-2023 <me@pecetfull.pl>"));
     info.SetDescription(_("A current air quality reading program for vintage computers connected to the Internet\nfrom the data retrieved from OpenWeatherMap's API.\n\nBuild info: ") + wxBuildInfo(long_f) + _(".\nBuild date: ") +  __TDATE__ + wxT(", ") __TTIME__ + '.');
     info.SetWebSite(_("https://www.pecetfull.pl"));

@@ -7,32 +7,31 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WinAirq 1.0.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-18 20:45+0100\n"
-"PO-Revision-Date: 2023-04-24 22:25+0200\n"
+"POT-Creation-Date: 2023-04-24 21:53+0200\n"
+"PO-Revision-Date: 2023-09-18 17:27+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
-"Language: ja\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.0.5\n"
+"X-Generator: Poedit 3.3.2\n"
 
 #: dump/WinAirqMain.cpp:265
 msgid "&About..."
-msgstr "概要…(&A)"
+msgstr "&O programu..."
 
 #: dump/SettingsDialog.cpp:80
 msgid "&Apply"
-msgstr "適用(&A)"
+msgstr "P&oužít"
 
 #: dump/WinAirqMain.cpp:260
 msgid "&Settings"
-msgstr "設定(&S)"
+msgstr "&Nastavení"
 
 #: dump/WinAirqMain.cpp:251 dump/WinAirqMain.cpp:257
 msgid "&Update"
-msgstr "アップデート(&U)"
+msgstr "Z&aktualizovat"
 
 #: dump/WinAirqMain.cpp:664
 msgid ""
@@ -40,15 +39,15 @@ msgid ""
 "Build date: "
 msgstr ""
 ".\n"
-"作成日："
+"Datum sestavení: "
 
 #: dump/AQILegendDialog.cpp:151
 msgid "2.5"
-msgstr "2.5"
+msgstr "2,5"
 
 #: dump/WinAirqMain.cpp:213
 msgid "2.5 "
-msgstr "2.5 "
+msgstr "2,5 "
 
 #: dump/WinAirqMain.cpp:664
 msgid ""
@@ -58,109 +57,109 @@ msgid ""
 "\n"
 "Build info: "
 msgstr ""
-"現在の大気環境の読み取りは、旧年代型のコンピューターをインターネットに繋"
-"ぎ、\n"
-"OpenWeatherMapのAPIデータを読み取っています。\n"
+"Program pro čtení aktuální kvality ovzduší pro staré počítače připojené k "
+"Internetu\n"
+"z údaji získaných z API služby OpenWeatherMap.\n"
 "\n"
-"作成情報："
+"Informace o sestavení: "
 
 #: dump/WinAirqMain.cpp:263
 msgid "AQI &legend"
-msgstr "AQIレジェンド(&L)"
+msgstr "&Legenda AQI"
 
 #: dump/AQILegendDialog.cpp:84
 msgid "Air quality index - Legend"
-msgstr "大気質指標 - レジェンド"
+msgstr "Index kvality ovzduší - legenda"
 
 #: dump/WinAirqMain.cpp:150
 msgid "Air quality:"
-msgstr "空質："
+msgstr "Kvalita ovzduší:"
 
 #: dump/SettingsDialog.cpp:122
 msgid ""
 "Another language has just been selected. To reflect all the changes, please "
 "restart the application."
 msgstr ""
-"言語設定が変更されました。すべてに反映させるためにアプリの再起動を行なってく"
-"ださい。"
+"Právě byl vybrán jiný jazyk. Chcete-li zobrazit všechny změny, restartujte "
+"prosím aplikaci."
 
 #: dump/wxTranslationHelper.cpp:70
 msgid "Array of language names and identifiers should have the same size."
-msgstr "言語名と識別子の配列は同じ大きさでなければならない。"
+msgstr "Pole názvů jazyků a identifikátorů by měly mít stejnou velikost."
 
 #: dump/SettingsDialog.cpp:78
 msgid "Cancel"
-msgstr "キャンセル"
+msgstr "Storno"
 
 #: dump/SettingsDialog.cpp:71
 msgid "Change"
-msgstr "変更"
+msgstr "Změnit"
 
 #: dump/LocationDialog.cpp:275 dump/WinAirqMain.cpp:562
 msgid ""
 "Could not connect to the website. Please check your Internet connection and "
 "try again later."
 msgstr ""
-"ウェブサイトに接続できません。インターネットの接続状況を確認して再度お試しく"
-"ださい。"
+"Připojení k webové stránce se nezdařilo. Zkontrolujte prosím své internetové "
+"připojení a zkuste to znovu později."
 
 #: dump/LocationDialog.cpp:63
 msgid "Country"
-msgstr "国"
+msgstr "Země"
 
 #: dump/SettingsDialog.cpp:69 dump/SettingsDialog.cpp:108
 msgid "Current language: "
-msgstr "選択中の言語："
+msgstr "Aktuální jazyk: "
 
 #: dump/jsonreader.cpp:2132 dump/LocationDialog.cpp:141
 msgid "DEC_FRACTION_DOT"
-msgstr "DEC_FRACTION_DOT"
+msgstr "DEC_FRACTION_COMMA"
 
 #: dump/WinAirqMain.cpp:144
 msgid "Date && time:"
-msgstr "日付＆時間："
+msgstr "Datum a čas:"
 
 #: dump/WinAirqMain.cpp:268
 msgid "E&xit"
-msgstr "終了(&X)"
+msgstr "&Konec"
 
 #: dump/LocationDialog.cpp:265 dump/LocationDialog.cpp:270
 #: dump/LocationDialog.cpp:275 dump/WinAirqApp.cpp:90 dump/WinAirqMain.cpp:544
 #: dump/WinAirqMain.cpp:553 dump/WinAirqMain.cpp:562
 msgid "Error"
-msgstr "エラー"
+msgstr "Chyba"
 
 #: dump/AQILegendDialog.cpp:195 dump/WinAirqMain.cpp:486
 msgid "Fair"
-msgstr "良い"
+msgstr "Dostatečná"
 
 #: dump/AQILegendDialog.cpp:172 dump/WinAirqMain.cpp:478
 msgid "Good"
-msgstr "非常に良い"
+msgstr "Dobrá"
 
 #: dump/wxTranslationHelper.cpp:71
 msgid "Language"
-msgstr "言語"
+msgstr "Jazyk"
 
 #: dump/LocationDialog.cpp:64
 msgid "Latitude"
-msgstr "緯度"
+msgstr "Zeměpisná šířka"
 
 #: dump/SettingsDialog.cpp:44 dump/WinAirqMain.cpp:139
 msgid "Location:"
-msgstr "位置："
+msgstr "Lokalizace:"
 
 #: dump/LocationDialog.cpp:65
 msgid "Longitude"
-msgstr "経度"
+msgstr "Zeměpisná délka"
 
 #: dump/SettingsDialog.cpp:122
 msgid "Message"
-msgstr "メッセージ"
+msgstr "Zpráva"
 
 #: dump/AQILegendDialog.cpp:218 dump/WinAirqMain.cpp:494
 msgid "Moderate"
-msgstr "中"
+msgstr "Střední"
 
 #: dump/SettingsDialog.cpp:75 dump/WinAirqMain.cpp:248
 msgid "OK"
@@ -168,129 +167,129 @@ msgstr "OK"
 
 #: dump/AQILegendDialog.cpp:96
 msgid "Pollutant concentration in micro-g/m "
-msgstr "汚染物質濃度(μg/m³)"
+msgstr "Koncentrace znečišťujících látek v mikro-g/m "
 
 #: dump/AQILegendDialog.cpp:241 dump/WinAirqMain.cpp:502
 msgid "Poor"
-msgstr "悪い"
+msgstr "Špatná"
 
 #: dump/SettingsDialog.cpp:39
 msgid "Program settings"
-msgstr "プログラムの設定"
+msgstr "Nastavení programu"
 
 #: dump/AQILegendDialog.cpp:89
 msgid "Qualitative name"
-msgstr "質の名称"
+msgstr "Kvalitativní jméno"
 
 #: dump/LocationDialog.cpp:41
 msgid "Search"
-msgstr "検索"
+msgstr "Hledat"
 
 #: dump/LocationDialog.cpp:32
 msgid "Search for location..."
-msgstr "位置情報の検索…"
+msgstr "Vyhledat lokalizaci..."
 
 #: dump/LocationDialog.cpp:209
 msgid "Searching, please wait..."
-msgstr "検索中です。しばらくお待ちください…"
+msgstr "Vyhledávání, počkejte prosím..."
 
 #: dump/wxTranslationHelper.cpp:71
 msgid "Select your language."
-msgstr "言語を設定してください。"
+msgstr "Vyberte svůj jazyk."
 
 #: dump/WinAirqMain.cpp:255
 msgid "Show &details"
-msgstr "詳細を見る(&D)"
+msgstr "Ukázat &podrobnosti"
 
 #: dump/SettingsDialog.cpp:55
 msgid "Show main window on program launch"
-msgstr "プログラム起動時にメインウインドウを表示する"
+msgstr "Ukazovat hlavní okno při spuštění programu"
 
 #: dump/LocationDialog.cpp:62
 msgid "State/Province"
-msgstr "県/州"
+msgstr "Kraj/stát/provincie"
 
 #: dump/LocationDialog.cpp:282
 msgid ""
 "The search phrase contains invalid characters, such as ^, ?, &, or =. Please "
 "remove them and try again."
 msgstr ""
-"^、?、&、=などの記号が入っていると検索が無効となります。それらを避けたうえで"
-"再度検索を行なってください。"
+"Hledaná fráze obsahuje neplatné znaky, jako jsou ^, ?, & nebo =. Prosím "
+"odstraňte je a zkuste to znovu."
 
 #: dump/WinAirqMain.cpp:666
 msgid ""
 "This program is published under The MIT License. For more information, "
 "please refer to the Licence.txt file included with the application."
 msgstr ""
-"本プログラムはMITライセンスに則り公開されています。詳細情報は、\n"
-"アプリ内のLicence.txtファイルをご参照ください。"
+"Tento program je publikován pod licencí MIT. Další informace naleznete v "
+"souboru Licence.txt, který je součástí aplikace."
 
 #: dump/LocationDialog.cpp:61
 msgid "Town"
-msgstr "市町村"
+msgstr "Místo"
 
 #: dump/LocationDialog.cpp:44
 msgid "Translate town names"
-msgstr "市町村名を翻訳する"
+msgstr "Překládat názvy míst"
 
 #: dump/WinAirqMain.cpp:544
 msgid ""
 "Unable to read data for the specified location. Please change the location "
 "or try again."
 msgstr ""
-"指定された位置情報を読み取ることができません。位置情報を変更した上で再度お試"
-"しください。"
+"Nelze přečíst údaje pro uvedenou lokalizaci. Změňte prosím lokalizaci nebo "
+"zkuste to znovu."
 
 #: dump/LocationDialog.cpp:265
 msgid ""
 "Unable to read data for the specified search phrase. Please change the "
 "location or try again."
 msgstr ""
-"入力された検索ワードに該当するものがありません。位置情報を変更するか、再度検"
-"索を行なってください。"
+"Nelze přečíst údaje pro uvedenou hledání frázi. Změňte prosím lokalizaci "
+"nebo zkuste to znovu."
 
 #: dump/LocationDialog.cpp:270 dump/WinAirqMain.cpp:553
 msgid "Unable to read data. Please try again later."
-msgstr "データが読み取れません。再度お試しください。"
+msgstr "Nelze přečíst údaje. Prosím zkuste to znovu později."
 
 #: dump/WinAirqMain.cpp:349 dump/WinAirqMain.cpp:376 dump/WinAirqMain.cpp:518
 #: dump/WinAirqMain.cpp:571
 msgid "Unknown"
-msgstr "不明"
+msgstr "Neznámá"
 
 #: dump/WinAirqMain.cpp:566
 msgid "Unknown (connection error)"
-msgstr "不明（接続エラー）"
+msgstr "Neznámá (chyba připojení)"
 
 #: dump/WinAirqMain.cpp:557
 msgid "Unknown (parse error)"
-msgstr "不明（分析エラー）"
+msgstr "Neznámá (chyba parsování)"
 
 #: dump/WinAirqMain.cpp:548
 msgid "Unknown (read error)"
-msgstr "不明（読み込みエラー）"
+msgstr "Neznámá (chyba čtení)"
 
 #: dump/SettingsDialog.cpp:61
 msgid "Update data every 15 minutes"
-msgstr "データの更新は15分おきに行なわれます"
+msgstr "Aktualizovat údaje každých 15 minut"
 
 #: dump/SettingsDialog.cpp:58
 msgid "Update data on program launch"
-msgstr "起動時にデータをアップデートします"
+msgstr "Aktualizovat údaje při spuštění programu"
 
 #: dump/AQILegendDialog.cpp:264
 msgid "Very Poor"
-msgstr "非常に悪い"
+msgstr "Velmi špatná"
 
 #: dump/WinAirqMain.cpp:510
 msgid "Very poor"
-msgstr "非常に悪い"
+msgstr "Velmi špatná"
 
 #: dump/LocationDialog.cpp:214 dump/LocationDialog.cpp:282
 #: dump/WinAirqMain.cpp:434
 msgid "Warning"
-msgstr "警告"
+msgstr "Varování"
 
 #: dump/WinAirqMain.cpp:134 dump/WinAirqMain.cpp:661
 msgid "WinAirq"
@@ -300,7 +299,7 @@ msgstr "WinAirq"
 #: dump/WinAirqMain.cpp:504 dump/WinAirqMain.cpp:512 dump/WinAirqMain.cpp:520
 #: dump/WinAirqMain.cpp:571
 msgid "WinAirq - Air quality: "
-msgstr "WinAirq - 空質："
+msgstr "WinAirq - Kvalita ovzduší: "
 
 #: dump/WinAirqApp.cpp:90
 msgid ""
@@ -310,24 +309,27 @@ msgid ""
 "\n"
 "The application will terminate now."
 msgstr ""
-"OpenWeatherMapのAPIサービスが使用できないWinAirqのバージョンが使用されていま"
-"す。ソフトウェアの開発者に問い合わせ、有効なビルドを入手してください。\n"
+"Používáte verzi programu WinAirq, která má neplatný klíč API pro služby "
+"OpenWeatherMap. Kontaktujte prosím svého poskytovatele softwaru pro platné "
+"sestavení.\n"
 "\n"
-"アプリケーションは終了されます。"
+"Aplikace bude nyní přerušena."
 
 #: dump/WinAirqMain.cpp:434
 msgid ""
 "You have not specified the location. Please go to the settings and specify "
 "your location."
-msgstr "位置情報が特定されていません。設定から位置情報を入力してください。"
+msgstr ""
+"Lokalizace není uvedena. Přejděte prosím do nastavení a uveďte svou "
+"lokalizaci."
 
 #: dump/LocationDialog.cpp:214
 msgid "You need to enter the desired location in order to proceed."
-msgstr "引き続き操作するには、測定する位置情報を入力してください。"
+msgstr "Abyste mohli pokračovat, musíte zadat žádoucí lokalizaci."
 
 #: dump/LocationDialog.cpp:123
 msgid "en"
-msgstr "ja"
+msgstr "cs"
 
 #: dump/WinAirqMain.cpp:665
 msgid "https://www.pecetfull.pl"
@@ -335,168 +337,168 @@ msgstr "https://www.pecetfull.pl"
 
 #: OK (with hotkey)
 msgid "&OK"
-msgstr "OK"
+msgstr "&OK"
 
 #: Cancel (with hotkey)
 msgid "&Cancel"
-msgstr "キャンセル"
+msgstr "&Storno"
 
 #: About
 msgid "About "
-msgstr "概要："
+msgstr "O programu "
 
 #: License
 msgid "License"
-msgstr "ライセンス"
+msgstr "Licence"
 
 #: Czech
 msgid "Czech"
-msgstr "チェコ語"
+msgstr "Čeština"
 
 #: English
 msgid "English"
-msgstr "英語"
+msgstr "Angličtina"
 
 #: English (Canada)
 msgid "English (Canada)"
-msgstr "英語 (カナダ)"
+msgstr "Angličtina (Kanada)"
 
 #: German
 msgid "German"
-msgstr "ドイツ語"
+msgstr "Němčina"
 
 #: Japanese
 msgid "Japanese"
-msgstr "日本語"
+msgstr "Japonština"
 
 #: Polish
 msgid "Polish"
-msgstr "ポーランド語"
+msgstr "Polština"
 
 #: Greater Poland Voivodeship
 msgid "Greater Poland Voivodeship"
-msgstr "ヴィエルコポルスカ県"
+msgstr "Velkopolské vojvodství"
 
 #: Lesser Poland Voivodeship
 msgid "Lesser Poland Voivodeship"
-msgstr "マウォポルスカ県"
+msgstr "Malopolské vojvodství"
 
 #: Lower Silesian Voivodeship
 msgid "Lower Silesian Voivodeship"
-msgstr "ドルヌィ・シロンスク県"
+msgstr "Dolnoslezské vojvodství"
 
 #: Lublin Voivodeship
 msgid "Lublin Voivodeship"
-msgstr "ルブリン県"
+msgstr "Lublinské vojvodství"
 
 #: Lubusz Voivodeship
 msgid "Lubusz Voivodeship"
-msgstr "ルブシュ県"
+msgstr "Lubušské vojvodství"
 
 #: Łódź Voivodeship
 msgid "Łódź Voivodeship"
-msgstr "ウッチ県"
+msgstr "Lodžské vojvodství"
 
 #: Kuyavian-Pomeranian Voivodeship
 msgid "Kuyavian-Pomeranian Voivodeship"
-msgstr "クヤヴィ＝ポモージェ県"
+msgstr "Kujavsko-pomořské vojvodství"
 
 #: Masovian Voivodeship
 msgid "Masovian Voivodeship"
-msgstr "マゾフシェ県"
+msgstr "Mazovské vojvodství"
 
 #: Opole Voivodeship
 msgid "Opole Voivodeship"
-msgstr "オポーレ県"
+msgstr "Opolské vojvodství"
 
 #: Podlaskie Voivodeship
 msgid "Podlaskie Voivodeship"
-msgstr "ポドラシェ県"
+msgstr "Podleské vojvodství"
 
 #: Pomeranian Voivodeship
 msgid "Pomeranian Voivodeship"
-msgstr "ポモージェ県"
+msgstr "Pomořské vojvodství"
 
 #: Silesian Voivodeship
 msgid "Silesian Voivodeship"
-msgstr "シロンスク県"
+msgstr "Slezské vojvodství"
 
 #: Subcarpathian Voivodeship
 msgid "Subcarpathian Voivodeship"
-msgstr "ポトカルパチェ県"
+msgstr "Podkarpatské vojvodství"
 
 #: Świętokrzyskie Voivodeship
 msgid "Świętokrzyskie Voivodeship"
-msgstr "シフィェンティクシシュ県"
+msgstr "Svatokřížské vojvodství"
 
 #: Warmian-Masurian Voivodeship
 msgid "Warmian-Masurian Voivodeship"
-msgstr "ヴァルミア＝マズールィ県"
+msgstr "Varmijsko-mazurské vojvodství"
 
 #: West Pomeranian Voivodeship
 msgid "West Pomeranian Voivodeship"
-msgstr "西ポモージェ県"
+msgstr "Západopomořanské vojvodství"
 
 #: Central Bohemia
 msgid "Central Bohemia"
-msgstr "中央ボヘミア州"
+msgstr "Střední Čechy"
 
 #: Central Moravia
 msgid "Central Moravia"
-msgstr "中央モラヴィア州"
+msgstr "Střední Morava"
 
 #: Moravia-Silesia
 msgid "Moravia-Silesia"
-msgstr "モラヴィア・スレスコ州"
+msgstr "Moravskoslezsko"
 
 #: Northeast
 msgid "Northeast"
-msgstr "北東州"
+msgstr "Severovýchod"
 
 #: Northwest
 msgid "Northwest"
-msgstr "北西州"
+msgstr "Severozápad"
 
 #: Prague
 msgid "Prague"
-msgstr "プラハ州"
+msgstr "Praha"
 
 #: Southeast
 msgid "Southeast"
-msgstr "南東州"
+msgstr "Jihovýchod"
 
 #: Southwest
 msgid "Southwest"
-msgstr "南西州"
+msgstr "Jihozápad"
 
 #: Burgenland
 msgid "Burgenland"
-msgstr "ブルゲンラント州"
+msgstr "Burgenland"
 
 #: Carinthia
 msgid "Carinthia"
-msgstr "ケルンテン州"
+msgstr "Korutany"
 
 #: Lower Austria
 msgid "Lower Austria"
-msgstr "ニーダーエスターライヒ州"
+msgstr "Dolní Rakousy"
 
 #: Salzburg
 msgid "Salzburg"
-msgstr "ザルツブルク州"
+msgstr "Salcbursko"
 
 #: Styria
 msgid "Styria"
-msgstr "シュタイアーマルク州"
+msgstr "Štýrsko"
 
 #: Tyrol
 msgid "Tyrol"
-msgstr "チロル州"
+msgstr "Tyrolsko"
 
 #: Upper Austria
 msgid "Upper Austria"
-msgstr "オーバーエスターライヒ州"
+msgstr "Horní Rakousy"
 
 #: Vorarlberg
 msgid "Vorarlberg"
-msgstr "フォアアールベルク州"
+msgstr "Vorarlbersko"

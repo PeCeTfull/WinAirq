@@ -1,6 +1,6 @@
 **** Czytaj to - Polski, CE ****
 
-WinAirq 1.0.1
+WinAirq 1.0.2
 Autor: PeCeT_full
 Strona WWW: http://www.pecetfull.pl/pl
 Copyright © by PeCeT_full 2022-2023. Program WinAirq jest publikowany na zasadach licencji MIT. Wiêcej informacji mo¿na uzyskaæ zapoznaj¹c siê z plikiem Licence.txt do³¹czonym do aplikacji (polskie t³umaczenie licencji MIT: http://blaszyk-jarosinski.pl/wp-content/uploads/2008/05/licencja-mit-tlumaczenie.pdf).

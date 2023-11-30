@@ -1,6 +1,6 @@
 **** Read Me - English ****
 
-WinAirq 1.0.1
+WinAirq 1.0.2
 Author: PeCeT_full
 Website: http://www.pecetfull.pl
 Copyright (c) by PeCeT_full 2022-2023. WinAirq is published under The MIT License. For more information, please refer to Licence.txt included with the application.

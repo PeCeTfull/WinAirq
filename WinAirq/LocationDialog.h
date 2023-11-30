@@ -42,6 +42,8 @@ class LocationDialog: public wxDialog
 
         wxString GetLocationParameterValue(wxJSONValue &jsonValue, int i, wxString parameter);
         wxString GetTranslatedTownName(wxJSONValue &jsonValue, int i);
+        wxString GetTownName(wxJSONValue &jsonValue, int i);
+        wxString GetTownState(wxJSONValue &jsonValue, int i, wxString country);
         wxString ParsePhraseForURL(wxString phrase);
         wxString GetCoordinatesSeparatorBasedOnProgramLocale();
         void OnLtcLocationsDoubleLeftClick(wxMouseEvent& event);

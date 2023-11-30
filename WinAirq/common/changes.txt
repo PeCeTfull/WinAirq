@@ -1,5 +1,10 @@
 The changelog of WinAirq
 
+1.0.2 (2023-11-30): 
+* fixed detail window to properly show on the screen over other windows after being hidden; 
+* added new Czech translation; 
+* handled language localisation of the regions of the Czech Republic and Austria.
+
 1.0.1 (2023-04-26): 
 * added new Japanese translation; 
 * updated AQI legend to the latest one at https://openweathermap.org/api/air-pollution; 
