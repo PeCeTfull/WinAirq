@@ -47,3 +47,13 @@ Additional info:
 WinAirq is published under The MIT License. Please refer to the LICENSE.txt file of this repository for more information regarding it.
 
 This program also includes libraries and source codes that are necessary to successfully compile and launch the software. The licensing information regarding those are located in the Licenses directory.
+
+### Screenshots ###
+
+<img width="444" height="365" alt="The main window of WinAirq" src="https://github.com/user-attachments/assets/d511bcd4-a829-4f06-b230-98608a27ca0c" />
+
+<img width="129" height="44" alt="WinAirq hidden in the system tray" src="https://github.com/user-attachments/assets/ffac8abf-1035-4046-ae8d-7e83838370c7" />
+
+### Videos ###
+
+[![WinAirq — Demonstration](https://img.youtube.com/vi/Xsg3tNwJG80/0.jpg)](https://www.youtube.com/watch?v=Xsg3tNwJG80)
